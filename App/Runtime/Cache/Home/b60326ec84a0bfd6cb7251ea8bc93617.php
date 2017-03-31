@@ -66,8 +66,8 @@ browserRedirect();
               <dd> <a href="<?php echo U('crm');?>"  title="CRM">PHP语言开发，功能强大，易用性强，电商创业最佳选择。 </a></dd>
             </dl>
 			<dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>销售模块</dt>
-			  <dd>三级分销引爆流量。</dd>
+              <dt><a href="<?php echo U('sales');?>"  title="销售模块">销售模块</a></dt>
+			  <dd><a href="<?php echo U('sales');?>"  title="销售模块">三级分销引爆流量。</a></dd>
             </dl><dl style="border-bottom: dotted 1px #CCC;" >
               <dt>仓库模块</dt>
 			  <dd>三级分销引爆流量。</dd>

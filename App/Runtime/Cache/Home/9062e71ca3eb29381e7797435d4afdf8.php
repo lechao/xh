@@ -11,14 +11,15 @@
 <meta name="description" content="<?php echo C('SITE_DESCRIPTION');?>" />
 <link rel="shortcut icon" href="images/logo-ico.png">
 <title><?php echo C('SITE_TITLE');?></title>
-<link href="/pc/Public/Static/css/base.css"  rel="stylesheet">
-<link href="/pc/Public/Static/css/home.css"  rel="stylesheet">
-<link href="/pc/Public/Static/css/animate.css"  rel="stylesheet">
-<link href="/pc/Public/Static/css/font/css/font-awesome.css"  rel="stylesheet">
-<script src="/pc/Public/Static/js/html5.js" ></script>
-<script src="/pc/Public/Static/js/jquery.js" ></script>
-<script src="/pc/Public/Static/js/shopnc.js" ></script>
-<script src="/pc/Public/Static/js/slider.js" ></script>
+<link href="/xh/Public/Static/css/base.css"  rel="stylesheet">
+<link href="/xh/Public/Static/css/home.css"  rel="stylesheet">
+<link href="/xh/Public/Static/css/animate.css"  rel="stylesheet">
+<!--<link href="/xh/Public/Static/css/font/css/font-awesome.css"  rel="stylesheet">-->
+<link href="/xh/Public/Static/font-awesome-4.7.0/css/font-awesome.css"  rel="stylesheet">
+<script src="/xh/Public/Static/js/html5.js" ></script>
+<script src="/xh/Public/Static/js/jquery.js" ></script>
+<script src="/xh/Public/Static/js/shopnc.js" ></script>
+<script src="/xh/Public/Static/js/slider.js" ></script>
 <script type="text/javascript">
   function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
@@ -33,7 +34,7 @@
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
         //window.location.href='http://www.7yunshop.com/pc/wap.php';
     }else{
-    	window.location.href='http://www.7yunshop.com/pc/wap.php';
+    	window.location.href='http://www.youbaninfo.com/wap.php';
     }
 }
 browserRedirect();
@@ -44,7 +45,8 @@ browserRedirect();
   <div class="top-box">
     <div class="left">售前电话：<b><?php echo ($config["pre_phone"]); ?></b></div>
     <div class="right">
-            <span class="mr30"><a href="<?php echo U('login');?>"  style="color:#ddddde" title="会员登录" target="_blank">会员登录</a> | <a href="<?php echo U('login-register');?>"  style="color:#ddddde" title="注册" target="_blank">注册</a></span>
+            <!--<span class="mr30"><a href="<?php echo U('login');?>"  style="color:#ddddde" title="会员登录" target="_blank">会员登录</a> | <a href="<?php echo U('login-register');?>"  style="color:#ddddde" title="注册" target="_blank">注册</a></span>-->
+            <span class="mr30"><a href="http://yanshi.youbaninfo.com/web/login"  style="color:#ddddde" title="我要试用" target="_blank">我要试用</a></span>
           </div>
   </div>
 </div>
@@ -54,20 +56,29 @@ browserRedirect();
     <div class="top-logo"><a href="<?php echo U('index');?>"  title="ShopNC" ><img src="<?php echo get_image_path($config['logo']);?>"  width="auto" height="100%" alt="<?php echo ($config["company_name"]); ?>"/></a></div>
     <ul class="top-nav primary">
       <li class="nav-list"><a href="<?php echo U('index');?>"  class="nav-list-link" title="首页">首页</a></li>
-      <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品">产品<i></i></a>
+      <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品模块">产品模块<i></i></a>
         <div class="clear"></div>
         <div class="sub">
           <div class="little-up"></div>
-          <div class="cont"> <a href="<?php echo U('b2b2c');?>"  title="B2B2C多用户商城系统">
+          <div class="cont">
             <dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>B2B2C多用户商城系统</dt>
-              <dd>PHP语言开发，功能强大，易用性强，电商创业最佳选择。</dd>
+              <dt>CRM</dt>
+              <dd> <a href="<?php echo U('b2b2c');?>"  title="B2B2C多用户商城系统">PHP语言开发，功能强大，易用性强，电商创业最佳选择。 </a></dd>
             </dl>
 			<dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>微商城三级分销系统</dt>
+              <dt>销售模块</dt>
+			  <dd>三级分销引爆流量。</dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt>仓库模块</dt>
+			  <dd>三级分销引爆流量。</dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt>采购模块</dt>
+			  <dd>三级分销引爆流量。</dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt>财务模块</dt>
 			  <dd>三级分销引爆流量。</dd>
             </dl>
-            </a>
+
             <!-- <a href="mall-java.html"  title="Java多用户商城系统">
               <dl>
                 <dt>Java多用户商城系统</dt>
@@ -77,11 +88,11 @@ browserRedirect();
           </div>
         </div>
       </li>
-      <li class="nav-list"><a href="<?php echo U('solution-list');?>"  class="nav-list-link" title="解决方案">解决方案</a>
+      <li class="nav-list"><a href="<?php echo U('solution-list');?>"  class="nav-list-link" title="行业案例">行业案例</a>
         <div class="clear"></div>
       </li>
-      <li class="nav-list"><a href="<?php echo U('case');?>"  class="nav-list-link" title="成功案例">成功案例</a></li>
-      <li class="nav-list"><a href="<?php echo U('cooperation');?>"  class="nav-list-link" title="合作代理">合作伙伴</a></li>
+      <!--<li class="nav-list"><a href="<?php echo U('case');?>"  class="nav-list-link" title="成功案例">成功案例</a></li>-->
+      <!--<li class="nav-list"><a href="<?php echo U('cooperation');?>"  class="nav-list-link" title="合作代理">合作伙伴</a></li>-->
       <li class="nav-list"><a href="<?php echo U('aboutus');?>"  class="nav-list-link" title="关于我们">关于我们</a></li>
     </ul>
   </div>
@@ -89,8 +100,8 @@ browserRedirect();
 <div class="clear"></div>
 
 
-<link href="/pc/Public/Static/css/product.css"  rel="stylesheet">
-<script src="/pc/Public/Static/js/jquery-1.8.0.min.js"  type="text/javascript"></script>
+<link href="/xh/Public/Static/css/product.css"  rel="stylesheet">
+<script src="/xh/Public/Static/js/jquery-1.8.0.min.js"  type="text/javascript"></script>
 <script type="text/javascript">
 $(function (){
   $(".f11nav li").click(function (){
@@ -130,10 +141,10 @@ $(function (){
     <div class="text fl" style="margin-top:50px;">
       <h2>自营商业运营模式</h2>
       <span class="fl">平台企业通过建立自营线上商城，整合自身多渠道业务。通过会员、商品、订单、财务和仓储等管理系统，对线下线上多渠道业务进行统一管理。</span> </div>
-     <img class="fr" src="/pc/Public/Static/images/product/fl_11_1.jpg"  alt="自营模式">
+     <img class="fr" src="/xh/Public/Static/images/product/fl_11_1.jpg"  alt="自营模式">
      </div>
      
-  <div class="fl11-list child-tab-show hide"> <img class="fl" src="/pc/Public/Static/images/product/fl_11_2.jpg"  alt="联营模式">
+  <div class="fl11-list child-tab-show hide"> <img class="fl" src="/xh/Public/Static/images/product/fl_11_2.jpg"  alt="联营模式">
     <div class="text fr" style="margin-top:20px;">
       <h2>联营商业运营模式</h2><span class="fl">整合多方渠道供应商，以商品入库、统一仓储、统一物流的方式进行入库联营。平台企业通过代销或者直销的方式，将伙伴供应商资源纳入平台自营体系，建立多个自营店铺，多样化商品和服务品类，整合行业资源。平台与伙伴供应商以不同的方式定期进行财务结算。</span>
       </div>
@@ -142,12 +153,12 @@ $(function (){
   <div class="fl11-list child-tab-show hide"  style="width:900px;">
     <div class="text fl" style="width:520px; padding-top:0px;" >
       <h2>招商模式</h2><span class="fl" style="width:570px;">平台企业通过建立线上商城，签约多方渠道供应商，通过会员、交易、平台和财务等管理系统，对平台进行运营管理。多方渠道供应商，以加盟签约形式，入驻B2B2C平台。入驻商家可自行管理商品、订单、仓储、物流、售后服务、营销推广等业务，定期与平台进行财务结算，入驻商家通过大平台流量、资源、营销服务等业务优势，强化自身品牌知名度，提高交易转化率。平台则可以多样化商品和服务品类，整合行业资源，收取商家营销推广费用、类目使用费用和平台佣金等收入。</span> </div>
-    <img class="fr" src="/pc/Public/Static/images/product/fl_11_3.jpg"  alt="招商模式">
+    <img class="fr" src="/xh/Public/Static/images/product/fl_11_3.jpg"  alt="招商模式">
     </div>
     
     
   <div class="fl11-list child-tab-show hide" style="width:900px;">
-  <img class="fl" style=" margin-top:10px;" src="/pc/Public/Static/images/product/fl_11_4.jpg"  alt="混合模式">
+  <img class="fl" style=" margin-top:10px;" src="/xh/Public/Static/images/product/fl_11_4.jpg"  alt="混合模式">
    <div class="text fr" style="width:570px; padding-top:0px;" >
     <h2>混合模式</h2><span class="fl" style="width:570px;">一般为自营+招商、自营+联营+招商等模式，平台企业通过建立自营线上商城，整合自身多渠道业务，通过会员、商品、订单、财务和仓储等管理系统，对线下线上多渠道业务进行统一管理。同时整合多方渠道供应商，以加盟签约形式，入驻B2B2C平台。入驻商家可自行管理商品、订单、仓储、物流、售后服务、营销推广等业务，定期与平台进行财务结算，入驻商家通过大平台流量、资源、营销服务等业务优势，强化自身品牌知名度，提高交易转化率。平台则可以多样化商品和服务品类，整合行业资源，收取商家营销推广费用、类目使用费用和平台佣金等收入。</span>  </div>
     </div>
@@ -162,11 +173,11 @@ $(function (){
   <div class="w750">
     <div class="no_2">
       <ul>
-        <li><img src="/pc/Public/Static/images/product/q1.png" ><span>PC独立商城</span></li>
-        <li><img src="/pc/Public/Static/images/product/q2.png" ><span>微信商城<span></li>
-        <li><img src="/pc/Public/Static/images/product/q3.png" ><span>手机触屏商城<span></li>
-        <li><img src="/pc/Public/Static/images/product/q4.png" ><span>APP商城iOS<span></li>
-        <li style="padding-right:0px;"><img src="/pc/Public/Static/images/product/q5.png" ><span>APP商城Android<span></li>
+        <li><img src="/xh/Public/Static/images/product/q1.png" ><span>PC独立商城</span></li>
+        <li><img src="/xh/Public/Static/images/product/q2.png" ><span>微信商城<span></li>
+        <li><img src="/xh/Public/Static/images/product/q3.png" ><span>手机触屏商城<span></li>
+        <li><img src="/xh/Public/Static/images/product/q4.png" ><span>APP商城iOS<span></li>
+        <li style="padding-right:0px;"><img src="/xh/Public/Static/images/product/q5.png" ><span>APP商城Android<span></li>
       </ul>
     </div>
   </div>
@@ -178,7 +189,7 @@ $(function (){
     <ul>
       <li>
         <div class="block-wap weichat01">
-          <div class="pic"><img src="/pc/Public/Static/images/product/weichat_pic01.jpg"  alt="会员体系"></div>
+          <div class="pic"><img src="/xh/Public/Static/images/product/weichat_pic01.jpg"  alt="会员体系"></div>
           <div class="texts">
             <h3><strong>会员体系</strong></h3>
             <h4>会员是商城的最基本构成元素之一。建立良好的会员信息，积分奖励制度以及贴心安全的购物环境是增加用户与网站粘性的好方法。 </h4>
@@ -187,7 +198,7 @@ $(function (){
       </li>
       <li>
         <div class="block-wap weichat02">
-          <div class="pic"><img src="/pc/Public/Static/images/product/weichat_pic02.jpg"  alt="商家体系"></div>
+          <div class="pic"><img src="/xh/Public/Static/images/product/weichat_pic02.jpg"  alt="商家体系"></div>
           <div class="texts">
             <h3><strong>商家体系</strong></h3>
             <h4>平台可以开设自营店铺进行商品销售，并可通过规范的入驻流程审核添加供应商（三方店铺），通过交易佣金、店铺等级服务费、运营促销费、广告...等途径获得利润。</h4>
@@ -196,7 +207,7 @@ $(function (){
       </li>
       <li>
         <div class="block-wap weichat01">
-          <div class="pic"><img src="/pc/Public/Static/images/product/weichat_pic03.jpg"  alt="商品交易"></div>
+          <div class="pic"><img src="/xh/Public/Static/images/product/weichat_pic03.jpg"  alt="商品交易"></div>
           <div class="texts">
             <h3><strong>商品交易</strong></h3>
             <h4>商品是商城销售的基本元素，合理的商品规格、属性设置，以及品牌、介绍等规则的设定都将直接影响购买情况。更有虚拟产品的加入为O2O销售模式奠定好基础。</h4>
@@ -205,7 +216,7 @@ $(function (){
       </li>
       <li>
         <div class="block-wap weichat02">
-          <div class="pic"><img src="/pc/Public/Static/images/product/weichat_pic04.jpg"  alt="运营统计"></div>
+          <div class="pic"><img src="/xh/Public/Static/images/product/weichat_pic04.jpg"  alt="运营统计"></div>
           <div class="texts">
             <h3><strong>商家体系</strong></h3>
             <h4>合理的运营模式体现了一套电子商务平台的核心价值，从结算、统计、物流、地区等各方面反应了宣汉7yun系统标准化与成熟度。</h4>
@@ -214,7 +225,7 @@ $(function (){
       </li>
       <li>
         <div class="block-wap weichat01">
-          <div class="pic"><img src="/pc/Public/Static/images/product/weichat_pic05.jpg"  alt="扩展支持"></div>
+          <div class="pic"><img src="/xh/Public/Static/images/product/weichat_pic05.jpg"  alt="扩展支持"></div>
           <div class="texts">
             <h3><strong>扩展支持</strong></h3>
             <h4>宣汉7yun B2B2C系统内置多种预设接口，可满足支付、物流、信息推送等日常功能，并可和微信、ERP、CRM、OMS三方软件进行无缝对接。</h4>
@@ -222,7 +233,7 @@ $(function (){
         </div>
       </li>
     </ul>
-    <a href="javascript:;" class="prev"><img src="/pc/Public/Static/images/product/arrow-prev.png"  border="0"></a> <a href="javascript:;" class="next"><img src="/pc/Public/Static/images/product/arrow-next.png"  border="0"></a> </div>
+    <a href="javascript:;" class="prev"><img src="/xh/Public/Static/images/product/arrow-prev.png"  border="0"></a> <a href="javascript:;" class="next"><img src="/xh/Public/Static/images/product/arrow-next.png"  border="0"></a> </div>
 </div>
 <div class="floor_3">
   <div class="title">一件商品的N+1种促销方式</div>
@@ -240,16 +251,16 @@ $(function (){
 						</script>
     <div class="xuank_ul">
       <ul>
-        <li class="xuank_clcik" id="xuank_clcik1" onmousemove="xuank_click(1,6);"> <img src="/pc/Public/Static/images/product/icon_01.png" > <em>单品级</em> <span>单品致胜是店铺<br>
+        <li class="xuank_clcik" id="xuank_clcik1" onmousemove="xuank_click(1,6);"> <img src="/xh/Public/Static/images/product/icon_01.png" > <em>单品级</em> <span>单品致胜是店铺<br>
           飞跃的不二法宝 </span> </li>
-        <li class="xuank_clcik" id="xuank_clcik2" onmousemove="xuank_click(2,6);"> <img src="/pc/Public/Static/images/product/icon_02.png" > <em>订单级</em> <span>提高客单量<br>
+        <li class="xuank_clcik" id="xuank_clcik2" onmousemove="xuank_click(2,6);"> <img src="/xh/Public/Static/images/product/icon_02.png" > <em>订单级</em> <span>提高客单量<br>
           销量翻一翻 </span> </li>
-        <li class="xuank_clcik" id="xuank_clcik3" onmousemove="xuank_click(3,6);"> <img src="/pc/Public/Static/images/product/icon_03.png" > <em>店铺级</em> <span>多种促销方式<br>
+        <li class="xuank_clcik" id="xuank_clcik3" onmousemove="xuank_click(3,6);"> <img src="/xh/Public/Static/images/product/icon_03.png" > <em>店铺级</em> <span>多种促销方式<br>
           帮你“黏住”客户 </span> </li>
-        <li class="xuank_clcik" id="xuank_clcik4" onmousemove="xuank_click(4,6);"> <img src="/pc/Public/Static/images/product/icon_04.png" > <em>平台级</em> <span>整站大促<br>
+        <li class="xuank_clcik" id="xuank_clcik4" onmousemove="xuank_click(4,6);"> <img src="/xh/Public/Static/images/product/icon_04.png" > <em>平台级</em> <span>整站大促<br>
           让平台每天都是双11 </span> </li>
-        <li class="xuank_clcik" id="xuank_clcik5" onmousemove="xuank_click(5,6);"> <img src="/pc/Public/Static/images/product/icon_05.png" > <em>组合促销</em> <span>组合式促销，让商品更加优惠</span> </li>
-        <li class="xuank_clcik" id="xuank_clcik6" onmousemove="xuank_click(6,6);"><img src="/pc/Public/Static/images/product/icon_06.png" > <em>移动端</em> <span>手机专享、拼团等为移动端<br>
+        <li class="xuank_clcik" id="xuank_clcik5" onmousemove="xuank_click(5,6);"> <img src="/xh/Public/Static/images/product/icon_05.png" > <em>组合促销</em> <span>组合式促销，让商品更加优惠</span> </li>
+        <li class="xuank_clcik" id="xuank_clcik6" onmousemove="xuank_click(6,6);"><img src="/xh/Public/Static/images/product/icon_06.png" > <em>移动端</em> <span>手机专享、拼团等为移动端<br>
           量身打造的促销方式</span> </li>
       </ul>
     </div>
@@ -278,25 +289,25 @@ $(function (){
     <div class="title">宣汉7yun B2B2C分销模块，四大核心功能</div>
     <ul>
       <li>
-        <div class="img_1"><img src="/pc/Public/Static/images/product/f10_1.png" ></div>
+        <div class="img_1"><img src="/xh/Public/Static/images/product/f10_1.png" ></div>
         <div class="t_text">
           <p>分销市场</p>
           <span>独立的分销市场，分销员可快速分销商品获取推广链接及二维码。</span> </div>
       </li>
       <li>
-        <div class="img_2"><img src="/pc/Public/Static/images/product/f10_2.png" ></div>
+        <div class="img_2"><img src="/xh/Public/Static/images/product/f10_2.png" ></div>
         <div class="t_text">
           <p>佣金体系</p>
           <span>商家设置商品的推广佣金，分销员推广成交后获得相应佣金。</span> </div>
       </li>
       <li>
-        <div class="img_3"><img src="/pc/Public/Static/images/product/f10_3.png" ></div>
+        <div class="img_3"><img src="/xh/Public/Static/images/product/f10_3.png" ></div>
         <div class="t_text">
           <p>推广体系</p>
           <span>分销员可把商品推广至微信、微博等三方社交软件中，也可以使用商城的直播模块进行推广。</span> </div>
       </li>
       <li>
-        <div class="img_4"><img src="/pc/Public/Static/images/product/f10_4.png" ></div>
+        <div class="img_4"><img src="/xh/Public/Static/images/product/f10_4.png" ></div>
         <div class="t_text">
           <p>结算体系</p>
           <span>完善的结算体系，可对任何状态下的分销订单进行单独处理。</span> </div>
@@ -309,7 +320,7 @@ $(function (){
   <div class="title">让购物——随时随地
     <p>轻松全球购</p>
   </div>
-  <img src="/pc/Public/Static/images/product/f9_1.jpg"  alt=""> </div>
+  <img src="/xh/Public/Static/images/product/f9_1.jpg"  alt=""> </div>
 <div class="floor_5">
   <div class="title"><em>完善的行业解决方案</em> 
     <!--    <p>宣汉7yun为您提供专业的服务，高效的方案</p>--> 
@@ -330,22 +341,22 @@ $(function (){
   <div class="w1160">
     <div class="no_1">
       <ul>
-        <li class="mr_20"> <img src="/pc/Public/Static/images/product/f_01.jpg"  alt="O2O商城系统"> <span>商城系统（MALL）</span>
+        <li class="mr_20"> <img src="/xh/Public/Static/images/product/f_01.jpg"  alt="O2O商城系统"> <span>商城系统（MALL）</span>
           <p>强大商城模块，包含会员、商家、后台管理、营销、商品、订单等基础功能外，更拥有门店、虚拟商品等模块。</p>
         </li>
-        <li class="mr_20"> <img src="/pc/Public/Static/images/product/f_02.jpg"  alt="O2O商城功能"> <span>移动端（WAP/H5/APP）</span>
+        <li class="mr_20"> <img src="/xh/Public/Static/images/product/f_02.jpg"  alt="O2O商城功能"> <span>移动端（WAP/H5/APP）</span>
           <p>PC商城与微信商城、触屏商城、原生开发的安卓及iOS手机应用数据全面打通。移动端与电商平台同步开发，功能完善统一、更具特色。</p>
         </li>
-        <li> <img src="/pc/Public/Static/images/product/f_03.jpg"  alt="网上商城ERP"> <span>资讯模块（CMS）</span>
+        <li> <img src="/xh/Public/Static/images/product/f_03.jpg"  alt="网上商城ERP"> <span>资讯模块（CMS）</span>
           <p>商城不再是单一的销售商品，更是在资讯、社交等领域全面布局，逐渐成为以购物为中心的综合性门户网站。</p>
         </li>
-        <li class="mr_20"> <img src="/pc/Public/Static/images/product/f_04.jpg"  alt="渠道"> <span>圈子模块（BBS）</span>
+        <li class="mr_20"> <img src="/xh/Public/Static/images/product/f_04.jpg"  alt="渠道"> <span>圈子模块（BBS）</span>
           <p>会员可以在圈子中分享喜欢的商品，展示自己购买过的商品，探讨大家感兴趣的话题，还可以发布一个投票调查。</p>
         </li>
-        <li class="mr_20"> <img src="/pc/Public/Static/images/product/f_05.jpg"  alt="拓展"> <span>微商城</span>
+        <li class="mr_20"> <img src="/xh/Public/Static/images/product/f_05.jpg"  alt="拓展"> <span>微商城</span>
           <p>通过流行的瀑布流展示方式，在一个垂直的领域内，通过关注、喜欢、分享、评论让有相同兴趣爱好的人聚集在一个社区。</p>
         </li>
-        <li> <img src="/pc/Public/Static/images/product/f_06.jpg"  alt="全网营销"> <span>即时通讯（IM）</span>
+        <li> <img src="/xh/Public/Static/images/product/f_06.jpg"  alt="全网营销"> <span>即时通讯（IM）</span>
           <p>纯JavaScript+PHP实现消息即时互通，可多联系人选显卡切换，离线消息自动保存，上线后推送提示，可显示聊天者在线状态，跨浏览器兼容等</p>
         </li>
       </ul>
@@ -355,9 +366,9 @@ $(function (){
 <div class="floor_2">
   <div class="title"><em>立即体验宣汉7yun功能</em></div>
   <div class="w1200">
-    <div class="f2con"> <img src="/pc/Public/Static/images/product/pd_04.png"  alt="" onclick="">
+    <div class="f2con"> <img src="/xh/Public/Static/images/product/pd_04.png"  alt="" onclick="">
       <ul class="right_ul">
-        <li><img src="/pc/Public/Static/images/product/7yun_PHP_wap.png"  alt="">
+        <li><img src="/xh/Public/Static/images/product/7yun_PHP_wap.png"  alt="">
           <p>B2B2C微信商城</p>
         </li>
         
@@ -365,7 +376,7 @@ $(function (){
     </div>
   </div>
 </div>
-<script src="/pc/Public/Static//pc/Public/Static/js/b2b2c-main.js" tppabs="/pc/Public/Static//pc/Public/Static/js/b2b2c-main.js" type="text/javascript"></script>
+<script src="/xh/Public/Static//xh/Public/Static/js/b2b2c-main.js" tppabs="/xh/Public/Static//xh/Public/Static/js/b2b2c-main.js" type="text/javascript"></script>
 
 </block>
 
@@ -375,9 +386,9 @@ $(function (){
   <div class="footer-container">
     <div class="left-side">
       <div class="site-name">
-        <a href="###"><img src="/pc/Public/Static/images/foot-logo.png"  alt="<?php echo ($config["company_name"]); ?>"/></a>
-        <!--<a href="javascript:;"  target="_blank"><img src="/pc/Public/Static/images/sina_logo.png"  alt="新浪微博"/></a>
-        <a href="javascript:;"  target="_blank"><img src="/pc/Public/Static/images/tencent_logo.png"  alt="腾讯微博"/></a>-->
+        <a href="###"><img src="/xh/Public/Static/images/foot-logo.png"  alt="<?php echo ($config["company_name"]); ?>"/></a>
+        <!--<a href="javascript:;"  target="_blank"><img src="/xh/Public/Static/images/sina_logo.png"  alt="新浪微博"/></a>
+        <a href="javascript:;"  target="_blank"><img src="/xh/Public/Static/images/tencent_logo.png"  alt="腾讯微博"/></a>-->
       </div>
       <div style="padding-bottom:8px; font-size:13px; font-weight:normal">高新技术企业：<?php echo ($config["company_name"]); ?>&nbsp;&nbsp;&nbsp;<!-- 证书编号：GR201512000273 --></div>
      <div class="site-intro">备案许可证号：<?php echo ($config["beian"]); ?></div>
@@ -408,7 +419,7 @@ $(function (){
     </div>
     <a href="javascript:;"  target="_blank" class="im-qq qq-a" title="B2B2C销售咨询"> <span>QQ客服咨询</span>
     <div class="qq-container"></div>
-    <div class="qq-hover-c"><img class="img-qq" src="/pc/Public/Static/images/im/qq.png" ></div>
+    <div class="qq-hover-c"><img class="img-qq" src="/xh/Public/Static/images/im/qq.png" ></div>
     </a>
 
     <div class="im-tel">
@@ -416,14 +427,14 @@ $(function (){
         <div>销售咨询</div>
         <?php if(is_array($pre_qq)): foreach($pre_qq as $key=>$vo): ?><div class="tel-num">
           <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo ($vo); ?>&site=qq&menu=yes" >
-                <img border="0" src="/pc/Public/Static/images/im/qq_ico.png"  alt=""/>
+                <img border="0" src="/xh/Public/Static/images/im/qq_ico.png"  alt=""/>
           </a>
         </div><?php endforeach; endif; ?>
       </div>
   
      <div class="solution">
         <div class="tel-num" style="margin:16px 0px 6px"><a target="_blank" href="jhttp://wpa.qq.com/msgrd?v=3&uin=2850515883&site=qq&menu=yes" >
-          <img border="0" src="/pc/Public/Static/images/im/qq_ico.png"  alt="解决方案"/></a>
+          <img border="0" src="/xh/Public/Static/images/im/qq_ico.png"  alt="解决方案"/></a>
         </div>
       </div>
 
@@ -431,7 +442,7 @@ $(function (){
       <div>售后服务</div>
             <?php if(is_array($aft_qq)): foreach($aft_qq as $key=>$val): ?><div class="tel-num">
                 <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo ($val); ?>&site=qq&menu=yes" >
-                      <img border="0" src="/pc/Public/Static/images/im/qq_ico.png"  alt=""/>
+                      <img border="0" src="/xh/Public/Static/images/im/qq_ico.png"  alt=""/>
                 </a>
               </div><?php endforeach; endif; ?>
       </div>
@@ -457,7 +468,7 @@ $(function (){
 <div id="DEMOBox" class="dialog dialog0">
   <div class="dialog-faq">
     <p class="welcome">尊敬的用户，欢迎您光临ShopNC官方网站，很高兴您对我们的产品有兴趣。<br/>
-      如需体验商城具体功能，请联系客服人员<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'"  target="_blank" title="客服咨询1"><img border="0" src="/pc/Public/Static/images/im/qq_ico.png" /></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'"  target="_blank" title="客服咨询2"><img border="0" src="/pc/Public/Static/images/im/qq_ico.png" /></a>提供相关测试地址及账号。</p>
+      如需体验商城具体功能，请联系客服人员<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'"  target="_blank" title="客服咨询1"><img border="0" src="/xh/Public/Static/images/im/qq_ico.png" /></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'"  target="_blank" title="客服咨询2"><img border="0" src="/xh/Public/Static/images/im/qq_ico.png" /></a>提供相关测试地址及账号。</p>
     <p>你也可以直接拨打我们的免费热线：<a href="tel:4008801509"><i class="fa fa-phone"></i>400-880-1509</a>立即询问。</p>
   </div>
   <div class="demosite">
@@ -486,7 +497,7 @@ $(function (){
   <div class="dialog-faq">
     <p class="welcome">尊敬的用户，欢迎您光临ShopNC官方网站，很高兴您对我们的产品有兴趣。<br/>
       还请您填写以下信息，我们会及时给您提供详细资料和解答。</p>
-    <p>你也可以直接拨打我们的免费热线：<a href="tel:4008801509"><i class="fa fa-phone"></i>400-880-1509</a>客服<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'"  target="_blank" title="客服咨询1"><img border="0" src="/pc/Public/Static/images/im/qq_ico.png" /></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'"  target="_blank" title="客服咨询2"><img border="0" src="/pc/Public/Static/images/im/qq_ico.png" /></a>。</p>
+    <p>你也可以直接拨打我们的免费热线：<a href="tel:4008801509"><i class="fa fa-phone"></i>400-880-1509</a>客服<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'"  target="_blank" title="客服咨询1"><img border="0" src="/xh/Public/Static/images/im/qq_ico.png" /></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'"  target="_blank" title="客服咨询2"><img border="0" src="/xh/Public/Static/images/im/qq_ico.png" /></a>。</p>
   </div>
   <form action="" method="post" onsubmit="return false;" id="apply_form">
     <input name="nchash" type="hidden" value="22ba1c70" />
@@ -525,7 +536,7 @@ $(function (){
     </div>
   </form>
 </div>
-<script src="/pc/Public/Static/js/jquery.hDialog.js" ></script> 
+<script src="/xh/Public/Static/js/jquery.hDialog.js" ></script> 
 <script>
 $(function(){
   $('.demo0').hDialog({title: 'ShopNC—产品在线演示地址 ', box:'#DEMOBox', width: 640, height: 500, boxBg: '#FAFAFA', modalBg: 'rgba(255,255,255,0.5)'});
