@@ -333,4 +333,8 @@ class IndexController extends Controller {
     public function account() {
         $this -> display();
     }
+
+    public function purchase() {
+        $this -> display();
+    }
 }
