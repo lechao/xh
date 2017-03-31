@@ -34,6 +34,11 @@ class IndexController extends Controller {
         $this->display();
     }
 
+    public function sales(){
+
+        $this->display();
+    }
+
 	public function b2b2c(){
 
         $this->display();
