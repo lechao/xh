@@ -1,0 +1,1756 @@
+[ 2017-01-14T00:56:55+08:00 ] 220.181.108.153 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000666s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000500s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000079s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2017-01-14T05:00:16+08:00 ] 69.58.178.58 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2017-01-14T05:00:37+08:00 ] 69.58.178.58 /pc/index.php/Index/aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000632s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-01-14T05:00:40+08:00 ] 69.58.178.58 /pc/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-01-14T05:00:42+08:00 ] 69.58.178.58 /pc/index.php/Index/login-register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000572s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-01-14T05:00:44+08:00 ] 69.58.178.58 /pc/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000539s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000357s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-01-14T05:00:46+08:00 ] 69.58.178.58 /pc/index.php/Index/b2b2c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000652s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000124s ]
+
+[ 2017-01-14T05:00:48+08:00 ] 69.58.178.58 /pc/index.php/Index/solution-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000575s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-01-14T05:00:49+08:00 ] 69.58.178.58 /pc/index.php/Index/case.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000541s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000130s ]
+
+[ 2017-01-14T05:00:51+08:00 ] 69.58.178.58 /pc/index.php/Index/cooperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000555s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-01-14T05:00:52+08:00 ] 69.58.178.58 /pc/index.php/Index/mobile-fx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-01-14T08:58:15+08:00 ] 123.125.71.38 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000552s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000144s ]
+
+[ 2017-01-14T17:01:34+08:00 ] 220.181.108.183 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000348s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-01-14T18:51:41+08:00 ] 89.145.95.39 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000594s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000371s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000135s ]
+
+[ 2017-01-14T20:04:33+08:00 ] 203.208.60.235 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000371s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-01-14T20:09:46+08:00 ] 203.208.60.236 /pc/index.php/Index/mobile-fx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-01-14T20:09:48+08:00 ] 203.208.60.236 /pc/index.php/Index/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000664s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:09:48+08:00 ] 203.208.60.236 /pc/index.php/Index/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:09:49+08:00 ] 203.208.60.236 /pc/index.php/Index/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:10:14+08:00 ] 203.208.60.233 /pc/wap.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000611s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/c720a402649bcecfdc3e7b78a24ebacd.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-01-14T20:10:47+08:00 ] 203.208.60.233 /pc/index.php/Index/case.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-01-14T20:11:06+08:00 ] 203.208.60.236 /pc/index.php/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000575s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-01-14T20:11:28+08:00 ] 203.208.60.234 /pc/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000614s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000475s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-01-14T20:11:51+08:00 ] 203.208.60.235 /pc/index.php/Index/b2b2c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-01-14T20:12:13+08:00 ] 203.208.60.236 /pc/index.php/Index/aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-01-14T20:12:19+08:00 ] 203.208.60.236 /pc/index.php/api.map.baidu.com/api-key=&v=1.1&services=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载控制器:Api.map.baidu.com
+
+[ 2017-01-14T20:12:21+08:00 ] 203.208.60.236 /pc/index.php/api.map.baidu.com/api-key=&v=1.1&services=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载控制器:Api.map.baidu.com
+
+[ 2017-01-14T20:12:36+08:00 ] 203.208.60.234 /pc/index.php/Index/mobile-ios.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000539s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-01-14T20:12:59+08:00 ] 203.208.60.236 /pc/index.php/Index/cooperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000551s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-01-14T20:13:23+08:00 ] 203.208.60.235 /pc/index.php/Index/solution-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-01-14T20:13:50+08:00 ] 203.208.60.235 /pc/index.php/Index/login-register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000634s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-01-14T20:14:46+08:00 ] 203.208.60.237 /pc/index.php/v1-6/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载控制器:V1-6
+
+[ 2017-01-14T20:14:47+08:00 ] 203.208.60.237 /pc/index.php/b2c/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载控制器:B2c
+
+[ 2017-01-14T20:14:52+08:00 ] 203.208.60.237 /pc/wap.php/Wap/APP.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000594s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/6a952d5f7533d75aa3940e2ad40d581a.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-01-14T20:14:53+08:00 ] 203.208.60.237 /pc/wap.php/Wap/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000506s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/c720a402649bcecfdc3e7b78a24ebacd.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-01-14T20:14:53+08:00 ] 203.208.60.237 /pc/wap.php/Wap/B2B2C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000551s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/bd2f040098ea82fb6ef6ac0b756a0299.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-01-14T20:14:54+08:00 ] 203.208.60.237 /pc/wap.php/Wap/apply.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/9d6a20d03758855e303c68daedcee33f.php 第 306 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-01-14T20:14:54+08:00 ] 203.208.60.237 /pc/wap.php/Wap/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/7126c8a6f65949a776784604894edf6f.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-01-14T20:14:54+08:00 ] 203.208.60.237 /pc/wap.php/Wap/solutions.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000531s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/10ae4cbf015156e8a820e99dcbc4f36c.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-01-14T20:14:55+08:00 ] 203.208.60.237 /pc/index.php/Index/mall-o2o.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000640s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-01-14T20:14:56+08:00 ] 203.208.60.237 /pc/index.php/Index/solution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000615s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-01-14T20:14:56+08:00 ] 203.208.60.237 /pc/index.php/Index/index.php-act=login.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000679s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000117s ]
+ERR: 非法操作:index.php-act=login.htm
+
+[ 2017-01-14T20:14:57+08:00 ] 203.208.60.237 /pc/index.php/Index/index.php-act=document.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000555s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000127s ]
+ERR: 非法操作:index.php-act=document.htm
+
+[ 2017-01-14T20:14:58+08:00 ] 203.208.60.237 /pc/index.php/Index/solution-solution_department.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000544s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000103s ]
+ERR: 非法操作:solution-solution_department
+
+[ 2017-01-14T20:14:58+08:00 ] 203.208.60.237 /pc/index.php/Index/solution-solution_crossborder2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000840s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000192s ]
+ERR: 非法操作:solution-solution_crossborder2
+
+[ 2017-01-14T20:14:59+08:00 ] 203.208.60.237 /pc/index.php/Index/solution-solution_crossborder5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000590s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000115s ]
+ERR: 非法操作:solution-solution_crossborder5
+
+[ 2017-01-14T20:15:05+08:00 ] 203.208.60.237 /pc/index.php/Index/js/lightbox.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000132s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:15:07+08:00 ] 203.208.60.234 /pc/index.php/Index/js/jquery.carousel.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000607s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000112s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:15:09+08:00 ] 203.208.60.234 /pc/index.php/Index/js/jquery.tabslet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000603s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:03+08:00 ] 203.208.60.233 /pc/wap.php/Wap/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000567s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/3f98b581113e9846f423e8321363d7ee.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-01-14T20:20:03+08:00 ] 203.208.60.233 /pc/wap.php/Wap/O2O.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/2b44d961b9d523b90471197964977c6d.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-01-14T20:20:05+08:00 ] 203.208.60.233 /pc/wap.php/Wap/cbes.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/ff73bddba011dd5c5cbfd553cbf0360e.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-01-14T20:20:05+08:00 ] 203.208.60.233 /pc/wap.php/Wap/live.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/06513ee2614caf1142472f7563d58801.php 第 270 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-01-14T20:20:06+08:00 ] 203.208.60.233 /pc/wap.php/Wap/general.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000544s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/0bcc570c78eab084cccee228afd6a5ff.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-01-14T20:20:06+08:00 ] 203.208.60.233 /pc/wap.php/Wap/medicine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000591s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/6b411ec9bee193a5a318f69118f5793c.php 第 217 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-01-14T20:20:07+08:00 ] 203.208.60.233 /pc/wap.php/Wap/Bizpower.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/731b8c3a875d5008ae0500c923b4aa5b.php 第 158 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-01-14T20:20:08+08:00 ] 203.208.60.233 /pc/wap.php/Wap/industrial.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000542s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/f68217ee8d812981c4da4c51933c4493.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-01-14T20:20:08+08:00 ] 203.208.60.233 /pc/wap.php/Wap/wap-download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/7ad15a73dc569b751c2fcddaea107d9f.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-01-14T20:20:09+08:00 ] 203.208.60.233 /pc/wap.php/Wap/distribution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/2b4d9221db5bae32fdadd60cedf1c948.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-01-14T20:20:10+08:00 ] 203.208.60.233 /pc/wap.php/Wap/iOS-download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000526s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/77de31a9d2e03f7c769a005e468bf871.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-01-14T20:20:10+08:00 ] 203.208.60.233 /pc/wap.php/Wap/android-download.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/7fb0e70e235f728553cda314e87903d8.php 第 222 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-01-14T20:20:17+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000103s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:18+08:00 ] 203.208.60.233 /pc/wap.php/Wap/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000576s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000108s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:23+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000529s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:24+08:00 ] 203.208.60.233 /pc/wap.php/Wap/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000117s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:25+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000613s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:26+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:33+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000588s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000116s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:35+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:37+08:00 ] 203.208.60.233 /pc/wap.php/Wap/css/load_live.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000579s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:39+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/zepto.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000105s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:40+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/live.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000221s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:41+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/animations.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000589s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:43+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/touch.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:44+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/live.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000784s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000143s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:45+08:00 ] 203.208.60.233 /pc/wap.php/Wap/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000106s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:47+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:48+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000523s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000102s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:51+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000101s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:53+08:00 ] 203.208.60.233 /pc/wap.php/Wap/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000567s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000132s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:54+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000546s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000120s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:55+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/animations.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000552s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000129s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:56+08:00 ] 203.208.60.234 /pc/wap.php/Wap/js/touch.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000479s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.001143s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:20:57+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/distribution.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000580s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000128s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:20:59+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/distribution.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000646s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000115s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:21:00+08:00 ] 203.208.60.233 /pc/wap.php/Wap/js/zepto.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000607s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000129s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:21:01+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000555s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000133s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:21:02+08:00 ] 203.208.60.236 /pc/wap.php/Wap/js/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000099s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:21:03+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/load_distribution.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000630s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000103s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T20:21:09+08:00 ] 203.208.60.236 /pc/wap.php/Wap/js/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000707s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000115s ]
+ERR: 非法操作:js
+
+[ 2017-01-14T20:21:31+08:00 ] 203.208.60.234 /pc/wap.php/Wap/css/animations.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000622s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+ERR: 非法操作:css
+
+[ 2017-01-14T21:53:19+08:00 ] 123.125.71.30 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000368s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000249s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-01-14T21:53:19+08:00 ] 220.181.108.162 /pc/wap.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Constant MODULE_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 135 行.
+NOTIC: [8] Constant CONTROLLER_NAME already defined /data/wwwroot/default/pc/ThinkPHP/Library/Think/Dispatcher.class.php 第 223 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: aft_phone /data/wwwroot/default/pc/App/Runtime/Cache/Home/c720a402649bcecfdc3e7b78a24ebacd.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+

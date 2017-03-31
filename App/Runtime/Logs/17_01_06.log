@@ -1,0 +1,376 @@
+[ 2017-01-06T00:55:42+08:00 ] 220.181.108.83 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000524s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000351s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000123s ]
+
+[ 2017-01-06T06:56:22+08:00 ] 140.205.201.18 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000607s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000413s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000080s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-01-06T06:56:23+08:00 ] 140.205.201.18 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000575s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000391s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-01-06T08:54:52+08:00 ] 220.181.108.153 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000599s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-01-06T11:04:34+08:00 ] 58.62.201.243 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000571s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000076s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-01-06T11:08:12+08:00 ] 123.125.71.82 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000361s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000078s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-01-06T12:12:33+08:00 ] 45.120.243.254 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000569s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000350s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000101s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-01-06T12:27:18+08:00 ] 118.113.202.33 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000503s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000106s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-01-06T14:19:28+08:00 ] 117.184.149.210 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000576s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000420s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000082s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-01-06T14:27:36+08:00 ] 117.184.149.210 /pc/index.php/Index/b2b2c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000606s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2017-01-06T14:27:38+08:00 ] 117.184.149.210 /pc/index.php/Index/mobile-ios.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000569s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-01-06T14:27:38+08:00 ] 117.184.149.210 /pc/index.php/Index/index.php-act=seccode&op=makecode&nchash=7a98f2b7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000743s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000106s ]
+ERR: 非法操作:index.php-act=seccode&op=makecode&nchash=7a98f2b7
+
+[ 2017-01-06T14:27:40+08:00 ] 117.184.149.210 /pc/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000536s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000381s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000077s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-01-06T14:27:41+08:00 ] 117.184.149.210 /pc/index.php/Index/images/hand.cur
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000136s ]
+ERR: 非法操作:images
+
+[ 2017-01-06T20:24:50+08:00 ] 220.181.108.174 /pc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `ea_system_config` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `ea_system_config` LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `ea_ad` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_BANNER' )  [ RunTime:0.000083s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL1' ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL2' ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `ea_ad` WHERE ( `ad_code` = 'INDEX_UL3' ) LIMIT 1   [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+

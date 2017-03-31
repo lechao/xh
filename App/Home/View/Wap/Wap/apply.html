@@ -1,0 +1,224 @@
+<block name="content">
+ <!-- Bootstrap  -->
+<link rel="stylesheet" href="__WAP__/css/bootstrap.min.css"/>
+<div class="apply">
+    <div class="banner">
+        <img alt="" src="__WAP__/image/banner_apply.jpg" >
+         
+    </div>
+    <div class="heading">
+        <h2>亲爱的用户，欢迎您光临宣汉7yun</h2>
+        <span>请您填写以下信息，我们会及时给您提供详细资料和解答。</span>
+    </div>
+
+
+    <div class="container apply-nav-box">
+
+        <form id="form-apply" class="form-horizontal" role="form">
+            <input type="hidden" name="sign" id="sign" value="web_wap">
+            <div class="form-group">
+                <label for="username" class="control-label"><span class="red">*</span>联系人</label>
+                <div>
+                    <input type="text" class="form-control" id="username" placeholder="请输入联系人姓名" name="username">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="qq" class="control-label"><span class="red">*</span>联系QQ</label>
+                <div>
+                    <input type="text" class="form-control" id="qq" placeholder="请输入QQ" name="qq">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="email" class="control-label"><span class="red">*</span>联系邮箱</label>
+                <div>
+                    <input type="text" class="form-control" id="email" placeholder="请输入邮箱" name="email">
+                </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom:5px !important;">
+                <label for="phone" class="control-label"><span class="red">*</span>手机号码</label>
+            </div>
+             <div class="form-group">
+                <div class="col-xs-8" style="padding-left:0px !important;">
+                    <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入手机号码">
+                </div>
+                 <a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%; padding:8px 12px; background:#fb3f00; border:none" id="sms_captcha1">获取验证码</a>
+                <a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%;font-size:18px !important; line-height:22px !important; padding:8px 12px; background:#fb3f00; border:none;display:none;" id="sms_captcha2">等待<em>59</em>秒后重新<br>获取验证码</a>
+            </div>
+
+            <div class="form-group">
+                <label for="identifying_code" class="control-label"><span class="red">*</span>验证码</label>
+                <div>
+                    <input type="text" class="form-control" id="identifying_code" name="identifying_code" placeholder="请输入手机短信验证码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="content" class="control-label"><span class="red">*</span>内容</label>
+                <div>
+                    <textarea class="form-control" id="content" rows="3" name="content"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <input class="btn btn-default btn-primary col-xs-12" type="submit" value="提交">
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+</block>
+<block name="js">
+<!-- Bootstrap -->
+<script src="__WAP__/js/bootstrap.min.js" ></script>
+<script src="__WAP__/js/jquery.validation.min.js" ></script>
+<script>
+    $().ready(function () {
+        //获取站点URL
+        var m = /^(https?:\/\/.+)\/wap/i.exec(location.href);
+        if (m && m.length > 1) {
+            var SiteUrl = m[1] + '/';
+        }
+        $('#form-apply').submit(function(){
+
+        });
+// 在键盘按下并释放及提交后验证提交表单
+        $("#form-apply").validate({
+            onkeyup: false,
+            rules: {
+                username: {
+                    required: true,
+                    minlength: 2
+                },
+                qq: {
+                    required: true,
+                    minlength: 5
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    rangelength: [11,11],
+                    number : true,
+
+                },
+                identifying_code: {
+                    required : true,
+                    remote :{
+                        url :SiteUrl + 'index.php?act=experience&op=check_captcha&column=ok',
+                        type:'get',
+                        data:{
+                            sms_captcha: function(){
+                                return $('#identifying_code').val();
+                            },
+                            phone:function(){
+                                return $('#phone').val();
+                            }
+                        }
+                    }
+
+                },
+                content: "required"
+            },
+            messages: {
+                username: {
+                    required: "请输入用户名",
+                    minlength: "用户名必需大于两个字母"
+                },
+                qq: {
+                    required: "请输入QQ",
+                    minlength: '请输入最少五位'
+                },
+                email: {
+                    required: "请输入邮箱地址",
+                    email: "请输入正确的邮箱地址"
+                },
+                identifying_code: {
+                    required: "请输入验证码",
+                    remote:"验证码错误"
+
+                },
+                phone: {
+                    required: "请输入手机号",
+                    rangelength: '请输入11位手机号',
+                    number: "请输入数字",
+                },
+                content: "请输入咨询内容",
+            },
+            submitHandler: function(form) {  //通过之后回调
+                var username = $('#username').val();
+                var qq = $('#qq').val();
+                var phone = $('#phone').val();
+                var sign = $('#sign').val();
+                var content = $('#content').val();
+                var identifying_code = $('#identifying_code').val();
+                var email = $('#email').val();
+                $.ajax({
+                    type:'POST',
+                    url:SiteUrl + 'index.php?act=wap_api&op=save_consult',
+                    data:{
+                        username:username,
+                        qq:qq,
+                        phone:phone,
+                        sign:sign,
+                        content:content,
+                        identifying_code: identifying_code,
+                        email:email
+                    },
+                    dataType:'json',
+                    success:function(data){
+                        if(data.done){
+                            alert('提交成功!');
+                            window.location.href="index.html"/*tpa=http://www.宣汉7yun.net/wap/index.html*/;
+                        }else{
+                            alert(data.msg);
+                        }
+                    },
+                })
+            }
+        });
+        $('#sms_captcha1').click(function(){
+            if($('#phone').val().length != 11){
+                $('#form-apply').submit();
+                return false;
+            }else{
+                ajaxurl = SiteUrl + 'index.php?act=experience&op=get_captcha';
+                ajaxurl += '&phone='+$('#phone').val();
+                $.ajax({
+                    type: "GET",
+                    url: ajaxurl,
+                    async: false,
+                    dataType:'json',
+                    success: function(rs){
+                        if(rs.state) {
+                            $('#sms_captcha1').hide();
+                            $('#sms_captcha2').show().find('em').html(rs.msg);
+                            var times_Countdown = setInterval(function(){
+                                var em = $('#sms_captcha2').find('em');
+                                var t = parseInt(em.html() - 1);
+                                if (t == 0) {
+                                    $('#sms_captcha1').show();
+                                    $('#sms_captcha2').hide();
+                                    clearInterval(times_Countdown);
+                                } else {
+                                    em.html(t);
+                                }
+                            },1000);
+                        } else {
+                            $.ncDialog({msg:rs});
+                        }
+                    }
+                });
+            }
+        })
+
+    });
+</script>
+</block>

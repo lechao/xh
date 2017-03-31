@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="{:C('SITE_KEYWORD')}">
+<meta name="description" content="{:C('SITE_DESCRIPTION')}">
+<title>{:C('SITE_TITLE')}</title>
+<meta name="author" content="ShopNC">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+<meta name="viewport" content="width=640,target-densitydpi=320, user-scalable=no">
+<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="HandheldFriendly" content="true">
+
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- UC应用模式 -->
+<meta name="browsermode" content="application">
+<!-- QQ应用模式 -->
+<meta name="x5-page-mode" content="app">
+<!-- windows phone 点击无高光 -->
+<meta name="msapplication-tap-highlight" content="no">
+<!-- 适应移动端end -->
+<!-- apple devices fullscreen -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<!-- Mobile Devices -->
+<meta name="msapplication-TileColor" content="#00AEEB"/>
+<!-- Windows 8 磁贴颜色 -->
+<meta name="msapplication-TileImage" content="__WAP__/images/logo_ico.png"/>
+<!-- Windows 8 磁贴图标 -->
+<link rel="shortcut icon" href="__WAP__/images/favicon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href="__WAP__/css/style.css" >
+<script type="text/javascript" src="__WAP__/js/jquery-1.9.1.js" ></script>
+<script type="text/javascript" src="__WAP__/js/yxMobileSlider.js" ></script>
+</head>
+<body>
+
+<input id="menustate" class="menustate" type="checkbox">
+<nav id="ncnav">
+  <ul class="navhead">
+       <li class="menuicon">
+           <label for="menustate">
+           <p class="menuanchor-open"><img src="__WAP__/image/menu.png" alt=""></p>
+           <p href="#" class="menuanchor-close">X</p>
+           </label>
+        </li>
+       <li class="logo"><img src="__WAP__/image/logo.png" alt="ShopNC-logo"></li>
+       <li class="tel"><img src="__WAP__/image/tel.png" alt="tel"></li>
+   </ul>
+   <ul class="list">
+       <li class="item_menu"><a class="item_link" href="{:U('B2B2C')}">B2B2C多用户商城系统</a></li>
+  
+       <li class="item_menu"><a class="item_link" href="{:U('APP')}">移动应用</a></li>
+       <li class="item_menu"><a class="item_link" href="{:U('solutions')}">电商解决方案</a></li>
+       <li class="item_menu"><a class="item_link" href="{:U('about')}">关于我们</a></li>
+   </ul>
+</nav>
+
+{__CONTENT__}
+
+<include file="Common/footer"/>
+</body>
+</html>

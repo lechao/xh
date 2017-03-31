@@ -1,0 +1,60 @@
+/* the container */
+.allinone_bannerRotator { position: relative; }
+.allinone_bannerRotator img { position: absolute; top: 0px; left: 0px; max-width: none; max-height: none; }
+.allinone_bannerRotator_list { margin: 0; padding: 0; list-style: none; display: none; }
+.allinone_bannerRotator .stripe { position: absolute; display: block; height: 100%; z-index: 1; overflow: hidden; }
+.allinone_bannerRotator .block { position: absolute; display: block; z-index: 1; overflow: hidden; }
+.mycanvas { position: absolute; top: 8px; right: 10px; z-index: 10; }
+/***ATTRACTIVE SKIN***/
+.allinone_bannerRotator.attractive .bannerControls { position: absolute; left: 0; top: 0; z-index: 2; width: 100%; }
+.allinone_bannerRotator.attractive .leftNav { position: absolute; left: -15px; top: 50%; width: 53px; height: 127px; background: url("skins/attractive/leftNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/attractive/leftNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.attractive .leftNav:hover { background: url("skins/attractive/leftNavON.png"/*tpa=http://www.shopnc.net/css/skins/attractive/leftNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.attractive .rightNav { position: absolute; right: -15px; top: 50%; width: 53px; height: 127px; background: url("skins/attractive/rightNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/attractive/rightNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.attractive .rightNav:hover { background: url("skins/attractive/rightNavON.png"/*tpa=http://www.shopnc.net/css/skins/attractive/rightNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.attractive .bottomNav { position: absolute; background: #532860; height: 35px; width: 0; padding-left: 9px; z-index: 4; }
+.allinone_bannerRotator.attractive .bottomNavButtonOFF { float: left; display: block; width: 11px; height: 11px; background: url("skins/attractive/bottomNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/attractive/bottomNavOFF.png*/) 0 0 no-repeat; padding-left: 9px; cursor: pointer; }
+.allinone_bannerRotator.attractive .bottomNavButtonON { float: left; display: block; width: 11px; height: 11px; padding-left: 9px; background: url("skins/attractive/bottomNavON.png"/*tpa=http://www.shopnc.net/css/skins/attractive/bottomNavON.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.attractive .bottomNavLeft { position: absolute; width: 63px; height: 35px; margin-left: 1px; background: url("skins/attractive/bottomNavLeft.png"/*tpa=http://www.shopnc.net/css/skins/attractive/bottomNavLeft.png*/) 0 0 no-repeat; z-index: 4; }
+.allinone_bannerRotator.attractive .bottomNavRight { position: absolute; width: 63px; height: 35px; margin-left: -1px; background: url("skins/attractive/bottomNavRight.png"/*tpa=http://www.shopnc.net/css/skins/attractive/bottomNavRight.png*/) 0 0 no-repeat; z-index: 4; }
+.allinone_bannerRotator.attractive .bottomOverThumb { position: absolute; width: 88px; height: 106px; background: url("skins/attractive/bottomOverThumbBg.png"/*tpa=http://www.shopnc.net/css/skins/attractive/bottomOverThumbBg.png*/) 23px bottom no-repeat; bottom: 27px; margin-left: -25px; }
+.allinone_bannerRotator.attractive .bottomOverThumb img { border: 4px solid #22032e; }
+/***CLASSIC SKIN***/
+.allinone_bannerRotator.classic .bannerControls { position: absolute; left: 0; top: 0; z-index: 2; width: 100%; }
+.allinone_bannerRotator.classic .leftNav { position: absolute; left: 4px; top: 50%; /*margin-top:-20px;  height/2 */
+width: 41px; height: 41px; background: url("skins/classic/leftNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/classic/leftNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.classic .leftNav:hover { background: url("skins/classic/leftNavON.png"/*tpa=http://www.shopnc.net/css/skins/classic/leftNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.classic .rightNav { position: absolute; right: 4px; top: 50%; /*margin-top:-20px;  height/2 */
+width: 41px; height: 41px; background: url("skins/classic/rightNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/classic/rightNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.classic .rightNav:hover { background: url("skins/classic/rightNavON.png"/*tpa=http://www.shopnc.net/css/skins/classic/rightNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.classic .bottomNav { white-space: nowrap; display: block !important; position: absolute; width: 0px; height: 24px; z-index: 4; bottom: -110px !important; }
+.allinone_bannerRotator.classic .bottomNavButtonOFF { background-color: transparent; display: inline-block; width: 9px; height: 9px; border: solid 1px #FFF; border-radius: 50%; cursor: pointer; margin-left: 5px; }
+.allinone_bannerRotator.classic .bottomNavButtonON { background-color: #FFF; }
+.allinone_bannerRotator.classic .bottomNavLeft { position: absolute; width: 0px; display: none; background: #F00; height: 24px; z-index: 4; }
+.allinone_bannerRotator.classic .bottomNavRight { position: absolute; width: 0px; display: none; height: 24px; background: #F00; z-index: 4; }
+.allinone_bannerRotator.classic .bottomOverThumb { position: absolute; width: 88px; height: 106px; background: url("skins/classic/bottomOverThumbBg.png"/*tpa=http://www.shopnc.net/css/skins/classic/bottomOverThumbBg.png*/) 23px bottom no-repeat; bottom: 27px; margin-left: -25px; }
+.allinone_bannerRotator.classic .bottomOverThumb img { border: 4px solid #000000; }
+/***UNIVERSAL SKIN***/
+.allinone_bannerRotator.universal .bannerControls { position: absolute; left: 0; top: 0; z-index: 2; width: 100%; }
+.allinone_bannerRotator.universal .leftNav { position: absolute; left: 10px; top: 50%; /*margin-top:-20px;  height/2 */
+width: 41px; height: 41px; background: url("skins/universal/leftNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/universal/leftNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.universal .leftNav:hover { background: url("skins/universal/leftNavON.png"/*tpa=http://www.shopnc.net/css/skins/universal/leftNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.universal .rightNav { position: absolute; right: 10px; top: 50%; /*margin-top:-20px;  height/2 */
+width: 41px; height: 41px; background: url("skins/universal/rightNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/universal/rightNavOFF.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.universal .rightNav:hover { background: url("skins/universal/rightNavON.png"/*tpa=http://www.shopnc.net/css/skins/universal/rightNavON.png*/) 0 0 no-repeat; }
+.allinone_bannerRotator.universal .bottomNav { position: absolute; width: 0px; height: 24px; z-index: 4; padding-left: 9px; }
+.allinone_bannerRotator.universal .bottomNavButtonOFF { float: left; display: block; width: 14px; height: 14px; background: url("skins/universal/bottomNavOFF.png"/*tpa=http://www.shopnc.net/css/skins/universal/bottomNavOFF.png*/) 0 0 no-repeat; padding-left: 9px; cursor: pointer; }
+.allinone_bannerRotator.universal .bottomNavButtonON { float: left; display: block; width: 14px; height: 14px; padding-left: 9px; background: url("skins/universal/bottomNavON.png"/*tpa=http://www.shopnc.net/css/skins/universal/bottomNavON.png*/) 0 0 no-repeat; cursor: pointer; }
+.allinone_bannerRotator.universal .bottomNavLeft { position: absolute; width: 0px; display: none; background: #F00; height: 24px; z-index: 4; }
+.allinone_bannerRotator.universal .bottomNavRight { position: absolute; width: 0px; display: none; height: 24px; background: #F00; z-index: 4; }
+.allinone_bannerRotator.universal .bottomOverThumb { position: absolute; width: 88px; height: 106px; background: url("skins/universal/bottomOverThumbBg.png"/*tpa=http://www.shopnc.net/css/skins/universal/bottomOverThumbBg.png*/) 23px bottom no-repeat; bottom: 27px; margin-left: -25px; }
+.allinone_bannerRotator.universal .bottomOverThumb img { border: 4px solid #000000; }
+/***Text Styles***/
+
+
+.mobile-banner-texts { position: absolute; z-index: 3; display: none; width: 100%; text-align: left; }
+.allinone_bannerRotator_text_line { font-family: "Microsoft YaHei", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Helvetica, Arial, sans-serif; font-weight: 600; color: #FFF; text-transform: uppercase; padding: 6px 15px; position: absolute; }
+/****Text Classic Fixed Dimensions***/
+
+.textElement11_classic { font-size: 36px; text-shadow: 3px 3px 0 rgba(0,0,0,0.1); }
+.textElement12_classic { font-size: 18px; text-shadow: 3px 3px 0 rgba(0,0,0,0.1); }
+.hideElement { display: none; }

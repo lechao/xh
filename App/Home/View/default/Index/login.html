@@ -1,0 +1,49 @@
+<block name="content">
+<link href="__STATIC__/css/style.css"  rel="stylesheet">
+<script src="__STATIC__/js/common.js" ></script>
+<style>
+html,body{ height:auto;}
+#top{background:none;}
+.banner2{ height:700px}
+</style>
+<div id="top_banner" class="banner2">
+  <div class="mid login" style="width:1000px; min-width:1000px">
+    <form id="login_form" class="nc-login-form" method="post" action="">
+      <input type="hidden" name="form_submit" value="ok" />
+      <dl>
+        <dt>账&nbsp;&nbsp;号：</dt>
+        <dd>
+          <input type="text" class="text" autocomplete="off"  name="user_name" placeholder="可使用已注册的用户名或手机号登录" id="user_name" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>密&nbsp;&nbsp;码：</dt>
+        <dd>
+          <input type="password" class="text" name="password" autocomplete="off" placeholder="您的登录密码" id="password" />
+        </dd>
+      </dl>
+      <div class="code-div mt15">
+        <dl>
+          <dt>验证码：</dt>
+          <dd>
+            <input type="text" name="captcha" autocomplete="off" class="text" placeholder="输入验证码" id="captcha" size="10"  style="width:130px" class="block right"/>
+            <span class="right block"><a class="makecode" href="javascript:freshVerify();" style="font-size:13px; color:#fff"><img src="{:U('verify')}"  title="看不清楚，换一张" alt="看不清楚，换一张" name="codeimage" id="codeimage"/> </a></span> </dd>
+        </dl>
+      </div>
+      <div class="submit-div">
+        <input type="submit" class="submit" value="确认登录">
+      </div>
+      <a href="{:U('login-register')}"  class="zhuce" title="立即注册云产品用户">立即注册会员用户</a>
+      <a href="javascript:"  class="zhuce" title="找回密码">找回密码</a>
+    </form>
+  </div>
+</div>
+</block>
+<block name="js">
+<script type="text/javascript">
+  function freshVerify() {
+    $('#codeimage').attr("src", $('#codeimage').attr("src").split("?")[0] + "?" + Math.random());
+  }
+</script>
+
+</block>

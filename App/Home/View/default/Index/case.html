@@ -1,0 +1,531 @@
+<block name="content">
+<link href="__STATIC__/css/case.css"  rel="stylesheet">
+<script type="text/javascript" src="__STATIC__/js/jquery-1.9.1.js" ></script>
+<script type="text/javascript">
+$(function (){
+  $(".case-nav a").click(function (){
+      var tabLiArr = $(this).parent().find("a");
+      var tabShowArr = $(this).parents(".tabbar").nextAll(".child-tab-show");
+      var index = $.inArray(this,tabLiArr);
+      if($(tabShowArr).eq(index)){
+        $(tabLiArr).removeClass("current").eq(index).addClass("current");
+        $(tabShowArr).addClass("hide").eq(index).removeClass("hide");
+      }
+  })
+  
+})
+</script>
+<style>
+.hide {
+	display: none !important;
+}
+</style>
+<div class="case-top-banner"></div>
+
+<div class="lf-wrap">
+  <div class="lf-content">
+    <div class="lf-title">
+      <h3>优秀客户案例</h3>
+    </div>
+    <div class="case-nav tabbar"> <b>按分类查看：</b> |<a class="current" href="javascript:void(0)">综合百货</a> |<a href="javascript:void(0)">跨境零售</a> |<a href="javascript:void(0)">电视传媒</a> |<a href="javascript:void(0)">社区O2O</a> |<a href="javascript:void(0)">农业电商</a> |<a href="javascript:void(0)">工业制造业</a> |<a href="javascript:void(0)">汽车行业</a> |<a href="javascript:void(0)">母婴</a> |<a href="javascript:void(0)">医药</a> |<a href="javascript:void(0)">家具建材</a> |<a href="javascript:void(0)">其他</a> </div>
+    <div class="lf-more-case child-tab-show">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>卡当商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>多汇网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>盼达网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>杭州意法商城</h3>
+          </div>
+          </a> </li>
+       <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>飞虎乐购</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>天城网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_07.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>德州百货商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_08.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>中铁快运商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/zhbh_09.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3> 美菱电器购实惠</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>优递爱</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>跨境网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>万国优品</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>万国万购</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>航投臻品</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>国际泛</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_07.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>圣地全球购</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_08.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>青岛万贸城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/kjls_09.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>象米国际</h3>
+          </div>
+          </a> </li>
+<!--        <li style="display: list-item;"> <a target="_blank" href="http://www.zhongdamen.com/ ">
+          <div class="lf-case-img"> <img src="http://www.shopnc.net/__STATIC__/images/case/kjls_10.jpg" alt=""> </div>
+          <div class="lf-case-info">
+            <h3>中大门</h3>
+          </div>
+          </a> </li>-->
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>央广购物 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>深圳宜和购物</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>河南广电喜买商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>澳门电讯商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>新疆大晨报我来购</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"> <a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/dscm_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>广电优品</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>七巧汇</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>多块好省商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>到家乐商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>爱美一族</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>哈尔滨铁路局火车头商城 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/sq_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>淘青岛商城</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>易牧网 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>乐村淘</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>翠鲜缘水果商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>巴扎网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>锦绣大地农贸市场</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/nyds_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>农村商贸综合服务平台</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>百利工业品</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>鲁西化工</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>云筑网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>仪品汇</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3> 安特百货</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>爱锐网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_07.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>沂川工业</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_08.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>东方易塑</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/gyzz_09.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>3号线煤炭网</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/car_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>车家佳</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/car_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>庞大汽车 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/car_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>易汽配商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/car_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>东风日产车巴巴</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href=" " >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/car_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>甲乙丙丁商城</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/baby_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>贝因美妈妈购</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/baby_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>园圈网 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/baby_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>61儿童商城</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/yy_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>修正药业</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href=" " >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/yy_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>华佗医药网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/yy_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>食安北京</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+<!--        <li style="display: list-item;"><a target="_blank" href="http://www.jcjjw.com">
+          <div class="lf-case-img"> <img src="http://www.shopnc.net/__STATIC__/images/case/jc_01.jpg" alt=""> </div>
+          <div class="lf-case-info">
+            <h3>建材竞价网</h3>
+          </div>
+          </a> </li>-->
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/jc_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>安乐窝</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/jc_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>狂装网</h3>
+          </div>
+          </a> </li>
+   <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/jc_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>良彬建材</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/jc_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>数联网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/jc_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>乐聚会</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="lf-more-case child-tab-show hide">
+      <ul class="lf-more-case-con">
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_01.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>OK无忧商城 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_02.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>金柚网福利商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_03.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>灯饰界</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_04.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>一团网 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_05.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>畅游江苏</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_06.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>亲亲网</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_07.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>易来邦商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_08.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>分红全球购 </h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_09.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>南电商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_10.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>水火土陶瓷商城</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_11.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>山东新华书店</h3>
+          </div>
+          </a> </li>
+        <li style="display: list-item;"><a target="_blank" href="" >
+          <div class="lf-case-img"> <img src="__STATIC__/images/case/qt_12.jpg"  alt=""> </div>
+          <div class="lf-case-info">
+            <h3>金牌商标代理</h3>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</block>
+<block name="js">
+
+</block>

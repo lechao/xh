@@ -1,0 +1,468 @@
+.banner-layout {
+   height: auto;
+    width: 100%;
+}
+.case-top-banner{ background: url("../images/case/banner-case.jpg"/*tpa=http://www.shopnc.net/images/case/banner-case.jpg*/) bottom no-repeat; height:499px; margin: 0 auto;}
+
+/* line 38, ../sass/_index.scss */
+.lf-content {
+  width: 1188px;
+  margin:20px auto 0;
+}
+
+/* line 42, ../sass/_index.scss */
+.lf-case {
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+/* line 46, ../sass/_index.scss */
+.lf-case li {
+  width: 297px;
+  height:278px;
+  float: left;
+  background: #5d71a4;
+}
+/* line 51, ../sass/_index.scss */
+.lf-case li:nth-child(2) {
+  background: #0bb2ac;
+}
+/* line 54, ../sass/_index.scss */
+.lf-case li:nth-child(7) {
+  background: #4aabd4;
+}
+/* line 57, ../sass/_index.scss */
+.lf-case li:nth-child(8) {
+  background: #2870c0;
+}
+/* line 60, ../sass/_index.scss */
+.lf-case li h3 {
+  position: relative;
+  padding: 50px 0px 40px;
+  text-align: center;
+  font-size:30px; font-weight:bolder;
+}
+/* line 65, ../sass/_index.scss */
+.lf-case li h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left:50%;
+  bottom:30%;
+  transform: translate(-50%, 20px);
+  width: 24px;
+  height:1px;
+  background: #fff;
+}
+.lf-case li a h3{ color:#FFFFFF;  }
+/* line 77, ../sass/_index.scss */
+.lf-case li p {
+
+  line-height: 24px;
+  font-size: 14px; text-align:left; font-size:14px;  text-indent:28px; 
+}
+.lf-case li a p { color:#ffffff;}
+/* line 82, ../sass/_index.scss */
+.lf-case li .cen {
+  text-align: center;
+}
+/* line 85, ../sass/_index.scss */
+.lf-case li img {
+  width: 297px;
+  height:278px;
+}
+
+
+/* line 652, ../sass/_index.scss */
+.lf-case li{
+  display: block;
+  position: relative;
+  /* animation: rotating 20s infinite;  */
+}
+.lf-case li .p36{
+  padding: 0 20px;
+  width: 257px;
+  height:278px;
+  position: absolute;
+  top:0;left:0;
+  /* animation: rotating2 20s infinite;  */
+}
+.lf-case li:nth-child(1){
+  animation: rotating3 20s infinite; 
+}
+.lf-case li:nth-child(2){
+  animation: rotating3 20s infinite; 
+  animation-delay:1.8s;
+}
+.lf-case li:nth-child(3){
+  animation: rotating 20s infinite; 
+  animation-delay:0.6s;
+}
+.lf-case li:nth-child(4){
+  animation: rotating 20s infinite; 
+  animation-delay:1.2s;
+}
+.lf-case li:nth-child(5){
+  animation: rotating 20s infinite;
+  animation-delay:2.1s;
+}
+.lf-case li:nth-child(6){
+  animation: rotating 20s infinite;
+  animation-delay:0.3s;
+}
+.lf-case li:nth-child(7){
+  animation: rotating3 20s infinite; 
+  animation-delay:1.5s;
+}
+.lf-case li:nth-child(8){
+  animation: rotating3 20s infinite; 
+  animation-delay:0.9s;
+}
+.lf-case li:nth-child(1) .p36{
+  background: #5e71a4;
+  animation: rotating4 20s infinite; 
+}
+.lf-case li:nth-child(2) .p36{
+  background: #748c95;
+  animation: rotating4 20s infinite; 
+  animation-delay:1.8s;
+}
+.lf-case li:nth-child(3) .p36{
+  background: #5e71a4;
+  animation: rotating2 20s infinite; 
+  animation-delay:0.6s;
+}
+.lf-case li:nth-child(4) .p36{
+  background: #748c95;
+  animation: rotating2 20s infinite; 
+  animation-delay:1.2s;
+}
+.lf-case li:nth-child(5) .p36{
+  background: #897f78;
+  animation: rotating2 20s infinite; 
+  animation-delay:2.1s;
+}
+.lf-case li:nth-child(6) .p36{
+  background: #7c4c3a;
+  animation: rotating2 20s infinite; 
+  animation-delay:0.3s;
+}
+.lf-case li:nth-child(7) .p36{
+  background: #897f78;
+  animation: rotating4 20s infinite; 
+  animation-delay:1.5s;
+}
+.lf-case li:nth-child(8) .p36{
+  background: #7c4c3a;
+  animation: rotating4 20s infinite; 
+  animation-delay:0.9s;
+}
+
+@keyframes rotating{
+  0% {transform: rotateY(0); }
+  45% {transform: rotateY(0); }
+  47% {transform: rotateY(180deg); }
+  98% {transform: rotateY(180deg); }
+  100% {transform: rotateY(0); }
+}
+@keyframes rotating2{
+  0% {transform: rotateY(0); opacity: 0; }
+  45% {transform: rotateY(0); opacity: 0; }
+  47% {transform: rotateY(180deg); opacity: 1; }
+  98% {transform: rotateY(180deg); opacity: 1; }
+  100% {transform: rotateY(0); opacity: 0; }
+}
+@keyframes rotating3{
+  0% {transform: rotateY(180deg); }
+  45% {transform: rotateY(180deg); }
+  47% {transform: rotateY(0); }
+  98% {transform: rotateY(0); }
+  100% {transform: rotateY(180deg); }
+}
+@keyframes rotating4{
+  0% {transform: rotateY(180deg); opacity: 1; }
+  45% {transform: rotateY(180deg); opacity: 1; }
+  47% {transform: rotateY(0); opacity: 0; }
+  98% {transform: rotateY(0); opacity: 0; }
+  100% {transform: rotateY(180deg); opacity: 1; }
+}
+
+.lf-wrap {
+  background: #f8f8f8;
+  overflow: hidden;
+}
+
+
+.lf-wrap .lf-title {
+    padding: 35px 0;
+}
+
+.lf-wrap .lf-title h3 {
+    color: #2c2c30;
+    font-size: 36px;
+    line-height: 90px;
+    text-align: center;
+}
+
+
+.lf-more-case-con {
+  overflow: hidden;
+}
+
+.lf-more-case-con li {
+  margin-right:27px;
+  margin-top: 45px;
+  text-align: center;
+  float: left;
+  width: 378px;
+  height: 280px;
+  background: #fff;
+}
+
+.lf-more-case-con li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.lf-more-case-con li.op5 {
+  opacity: 0.3;
+}
+
+
+.lf-case-img img {
+  width: 100%;
+}
+
+
+.lf-case-info h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 0;
+    position: relative;
+}
+
+.lf-case-info p {
+  font-size: 14px;
+  line-height:14px;
+  color: #666666;
+}
+.more-case{
+  margin: 20px 0;
+  text-align: center;
+}
+.more-case span{
+  font-size: 18px;
+  line-height: 30px;
+  color: #666;
+  cursor: pointer;
+}
+
+
+/* 使用讲堂 */
+.wrap{  background-color: transparent !important;
+    border: 0 none;
+    margin: 50px auto;
+    min-height: auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    vertical-align: top;
+    width: 1200px;
+    z-index: 1;}
+#aboutus section {
+
+}
+.college-top-banner{ background: url("../images/case/college.jpg"/*tpa=http://www.shopnc.net/images/case/college.jpg*/) bottom no-repeat; height:499px; margin: 0 auto;}
+.college-info-banner{ background: url("../images/case/college-info.jpg"/*tpa=http://www.shopnc.net/images/case/college-info.jpg*/) bottom no-repeat; height:240px; margin: 0 auto;}
+.college-left{ float: left;width: 920px; }
+.college-left h3 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.college-left h3 .tit {
+    color: #656565;
+    font-size: 14px;
+    margin: 0 15px;
+}
+.college-left h3 .tit b {
+    color: #9b5b32;
+}
+
+.college-left  .college-list {
+    background: #fff;
+    height: 556px; margin-bottom:40px;
+}
+
+
+
+.college-left  .college-list .college-box {
+    border: 1px solid #ededed;
+    float: left;
+    height: 276px;
+    width: 228px; margin-right:-1px;
+}
+.college-left  .college-list .college-box a {
+    display: block;
+    height: 256px;
+    margin: 0 auto;
+    padding-top: 18px;
+    text-decoration: none;
+    width: 200px;
+}
+.college-left  .college-list .college-box .college-imgbox {
+    display: table-cell;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+.college-left  .college-list .college-box .college-imgbox img {
+    max-height: 150px;
+    max-width: 200px;
+    vertical-align: top;
+}
+.college-left  .college-list .college-box .college-titleName {
+    color: #000;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.college-left  .college-list .college-box .college-desc {
+    color: #706f6f;
+    margin: 0 auto;
+}
+
+
+.college-left{ float: left;width: 920px; }
+
+.college-right {
+
+    float: right;
+
+    width: 248px;
+}
+
+
+.college-right h3 {
+
+    font-size: 20px;
+    font-weight: 400; height:43px; line-height:43px;
+ 
+	background-color: #505767;
+    border: 1px solid #505767;
+    color: #fff; padding-left:17px;
+}
+
+.college-right .con{ 
+
+    background: #fff;
+    border: 1px solid #ededed;
+    float: right;
+    height: auto;
+    overflow: hidden;
+    width: 246px; padding-bottom:20px;
+
+}
+
+.college-right .con ul{ 
+    background: #fff;
+    padding-left: 17px;
+    width: 214px;
+}
+
+.college-right .con ul li {
+
+    border-bottom: 1px solid #eee;
+    height: 78px;
+    position: relative;
+}
+
+.college-right .con ul li .live-title {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding-bottom: 6px;
+    padding-top: 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.college-right .con ul li:last-child{ border-bottom:none;  }
+
+.class-info {
+    background: #fff; width:840px;
+    padding: 30px 40px 30px 40px;border: 1px solid #ededed;
+}
+
+.class-info h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.class-info p { line-height:22px; color:#666;font-size:14px; 
+}
+ 
+
+
+.class-details{ background-color: #fff;border: 1px solid #e5e5e5;width:840px; margin-top:20px;  padding: 30px 40px 30px 40px; }
+.class-details .tit{
+
+  border-bottom: 2px solid #505767;
+    height: 36px;
+}
+.class-details h2 {
+    background-color: #505767;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font: 18px/36px "microsoft yahei";
+    height: 36px;
+    padding: 0 20px;}
+
+.class-details .time{ text-align:right; font-size:14px; float:right;  }
+.class-details .con{ margin-top:20px;}
+.class-details p{ font-size:16px; line-height:28px; text-indent:32px; margin-bottom:25px;}
+
+
+
+.case-nav{
+    background-color:#f54242;
+    color: #8c8c8c;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+.case-nav a, .case-nav b {
+  
+	color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    height:38px;
+    line-height:38px;
+    margin-left: -2px;
+    padding: 0 15px;
+}
+.case-nav a:hover {
+    color: #ffffff; background-color:#363c48;
+}
+
+.case-nav a.current{ background:#fff; color:#505767; }
+.lf-more-case{ margin-bottom:50px;  }
+.lf-more-case h2{   color: #2c2c30;font-size:20px; height:36px; line-height:36px; margin-top:20px;line-height: 36px;background:#ffffff; border-left:4px solid #505767; }

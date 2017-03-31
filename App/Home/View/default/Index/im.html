@@ -1,0 +1,83 @@
+<div id="im" class="main-layout" style="border-top: solid 1px #E7E7E7;">
+<section class="even" style="background:#fff">
+    <div class="page-location" id="guestBook">&nbsp;</div>
+    <div class="wrap">
+      <div class="title">
+        <h2>我想在线咨询提问题?</h2>
+        <h4>让我们为您诠释该套系统的历史、发展及未来</h4>
+      </div>
+      <div class="content">
+        <div class="guestbook-layout">
+          <form class="guestbook-form" id="consult_form" name="consult_form">
+            <input type="hidden" name="sign" value="solution-list">
+            <input name="nchash" type="hidden" value="36a9b6d6" />
+            <label> <strong>姓&nbsp;&nbsp;名</strong>
+              <input type="text" value="" class="input-txt" name="name" id="name">
+            </label>
+            <label> <strong>手&nbsp;&nbsp;机</strong>
+              <input type="text" value="" class="input-txt" name="phone" id="phone">
+            </label>
+            <label> <strong>Q&nbsp;&nbsp;Q</strong>
+              <input type="text" value="" class="input-txt" name="qq" id="qq">
+            </label>
+            <label> <strong>验证码</strong>
+              <input type="text" class="input-txt w60" name="code" id="code">
+              <img src="{:U('verify')}"  name="codeimage1" border="0" id="codeimage"/><a href="javascript:freshVerify();" title="点击更换" class="btn">换一张</a> </label>
+            <label class="w"><strong>内&nbsp;&nbsp;容</strong>
+              <textarea class="input-textarea" name="content" id="content"></textarea>
+            </label>
+            <label class="w"><a href="javascript:;" class="button-submit" id="consult_submit">发布留言</a></label>
+          </form>
+          <div class="guestbook-list"> </div>
+        </div>
+      </div>
+<script src="__STATIC__/js/jquery.validation.min.js" ></script> 
+<script>
+
+$(function(){
+
+    $('#consult_form').validate({
+        errorPlacement: function(error, element){
+            var error_td = element.parent('label');
+            error_td.append(error);
+        },
+        rules : {
+            name : {
+                required : true
+            },
+            phone : {
+                required : true
+            },
+            qq : {
+                required : true
+            },
+            content : {
+                required : true
+            }
+        },
+        messages : {
+        }
+    });
+
+    $("#consult_submit").click(function(){
+        if ($("#consult_form"http://www.shopnc.net/).valid()){            $.post('index.php?act=index&op=save_consult', $("#consult_form").serialize(), function(date){
+                date = $.parseJSON(date);
+                if (date.done) {
+                    $.tooltip(date.msg, 2000, true);
+                  document.consult_form.reset();
+                } else {
+                    $.tooltip(date.msg);
+                }
+                $('.gt_refresh_button').each(function(){
+                    $(this)[0].click();
+                });
+            });
+        }
+        return false;
+    });
+
+
+});
+</script>     </div>
+  </section>
+</div>

@@ -1,0 +1,115 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox,
+#cboxOverlay,
+#cboxWrapper { position: absolute; top: 0; left: 0; z-index: 9999; overflow: hidden; }
+#cboxOverlay { position: fixed; width: 100%; height: 100%; }
+#cboxMiddleLeft,
+#cboxBottomLeft { clear: left; }
+#cboxContent { position: relative; }
+#cboxLoadedContent { overflow: auto; -webkit-overflow-scrolling: touch; }
+#cboxTitle { margin: 0; }
+#cboxLoadingOverlay,
+#cboxLoadingGraphic { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow { cursor: pointer; }
+.cboxPhoto { float: left; margin: auto; border: 0; display: block; max-width: none; -ms-interpolation-mode: bicubic; }
+.cboxIframe { width: 100%; height: 100%; display: block; border: 0; }
+#colorbox,
+#cboxContent,
+#cboxLoadedContent { box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; }
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay { background: url("../images/shred/overlay.png"/*tpa=http://www.shopnc.net/images/shred/overlay.png*/) repeat 0 0; }
+#colorbox { outline: 0; }
+#cboxTopLeft { width: 21px; height: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -101px 0; }
+#cboxTopRight { width: 21px; height: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -130px 0; }
+#cboxBottomLeft { width: 21px; height: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -101px -29px; }
+#cboxBottomRight { width: 21px; height: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -130px -29px; }
+#cboxMiddleLeft { width: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) left top repeat-y; }
+#cboxMiddleRight { width: 21px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) right top repeat-y; }
+#cboxTopCenter { height: 21px; background: url("../images/shred/border.png"/*tpa=http://www.shopnc.net/images/shred/border.png*/) 0 0 repeat-x; }
+#cboxBottomCenter { height: 21px; background: url("../images/shred/border.png"/*tpa=http://www.shopnc.net/images/shred/border.png*/) 0 -29px repeat-x; }
+#cboxContent { background: #fff; overflow: hidden; }
+.cboxIframe { background: #fff; }
+#cboxError { padding: 50px; border: 1px solid #ccc; }
+#cboxLoadedContent { margin-bottom: 28px; }
+#cboxTitle { position: absolute; bottom: 4px; left: 0; text-align: center; width: 100%; color: #949494; }
+#cboxCurrent { position: absolute; bottom: 4px; left: 58px; color: #949494; }
+#cboxLoadingOverlay { background: url("../images/shred/loading_background.png"/*tpa=http://www.shopnc.net/images/shred/loading_background.png*/) no-repeat center center; }
+#cboxLoadingGraphic { background: url("../images/shred/loading.gif"/*tpa=http://www.shopnc.net/images/shred/loading.gif*/) no-repeat center center; }
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious,
+#cboxNext,
+#cboxSlideshow,
+#cboxClose { border: 0; padding: 0; margin: 0; overflow: visible; width: auto; background: none; }
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active,
+#cboxNext:active,
+#cboxSlideshow:active,
+#cboxClose:active { outline: 0; }
+#cboxSlideshow { position: absolute; bottom: 4px; right: 30px; color: #0092ef; }
+#cboxPrevious { position: absolute; bottom: 0; left: 0; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -75px 0; width: 25px; height: 25px; text-indent: -9999px; }
+#cboxPrevious:hover { background-position: -75px -25px; }
+#cboxNext { position: absolute; bottom: 0; left: 27px; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -50px 0; width: 25px; height: 25px; text-indent: -9999px; }
+#cboxNext:hover { background-position: -50px -25px; }
+#cboxClose { position: absolute; bottom: 0; right: 0; background: url("../images/shred/controls.png"/*tpa=http://www.shopnc.net/images/shred/controls.png*/) no-repeat -25px 0; width: 25px; height: 25px; text-indent: -9999px; }
+#cboxClose:hover { background-position: -25px -25px; }
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+
+/** General page styling **/
+
+body { background-color: #fbf5e7 !important; background-image: none !important; }
+#main { margin: 30px 0; position: relative; }
+/**
+ * Grid container
+ */
+#tiles { list-style-type: none; position: relative; /** Needed to ensure items are laid out relative to this container **/ margin: 0; padding: 0; }
+/**
+ * Grid items
+ */
+#tiles li { width: 372px; background-color: #ffffff; border: 1px solid #e7e5df; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; display: none; /** Hide items initially to avoid a flicker effect **/ cursor: pointer; padding: 4px; }
+#tiles li.inactive { visibility: hidden; opacity: 0; }
+#tiles li img { display: block; }
+/**
+ * Grid item text
+ */
+#tiles li p { color: #666; font-size: 12px; line-height: 20px; text-align: left; font-weight: 200; margin: 7px 10px 10px 10px; }
+#tiles li p.ptitle { font-size: 15px; font-weight: bolder; margin: 10px 10px 12px 10px; font-family: "Microsoft YaHei"; color: #35200a; }
+/**
+ * Progress bar for imagesLoaded
+ */
+.progress-bar { background-color: #0BC20B; height: 2px; position: absolute; top: 0; left: 0; right: 0; width: 0; box-shadow: 0 1px 3px rgba(11, 194, 11, 0.2); -webkit-transition: width 0.3s ease-out; -moz-transition: width 0.3s ease-out; -o-transition: width 0.3s ease-out; transition: width 0.3s ease-out; }
+/**
+ * Placerholder css
+ */
+.wookmark-placeholder { border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; background-color: #eee; border: 1px solid #dedede; z-index: -1; }
+.example-tiles { position: relative; /** Needed to ensure items are laid out relative to this container **/ margin: 0; padding: 0; }
+.example-tiles li { display: block; list-style-type: none; float: left; margin: 5px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+.example-tiles a,
+.example-tiles a:hover { color: #555; background-color: #eee; text-align: center; display: table-cell; vertical-align: middle; width: 200px; height: 200px; font-size: 2em; font-weight: bold; text-decoration: none; border: 1px solid #ddd; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); padding: 5px 8px; border-radius: 3px; }
+.example-tiles a:hover { background-color: #ddd; }
+.sbanner-box { width: 100%; height: 468px; }
+.banner-inner-B2B2C { width: auto; height: 600px; background: url("../images/shred/banner_B2B2C.jpg"/*tpa=http://www.shopnc.net/images/shred/banner_B2B2C.jpg*/) no-repeat bottom; margin: 0 auto; }
+.banner-inner-O2O { width: auto; height: 468px; background: url("../images/shred/banner_O2O.jpg"/*tpa=http://www.shopnc.net/images/shred/banner_O2O.jpg*/) no-repeat center; margin: 0 auto; }
+.ncmore { width: 980px; height: 229px; margin: 0 auto; }

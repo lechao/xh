@@ -1,0 +1,227 @@
+<block name="content">
+<link href="__STATIC__/css/style.css"  rel="stylesheet">
+<style>
+html,body{ height:auto;}
+#top{background:none;}
+.banner2{ height:700px}
+</style>
+<div id="top_banner" class="banner2">
+  <div class="mid register">
+    <div class="step"> 
+        <span class="check"><a href="javascript:void(0);">手机注册</a></span> 
+        <!-- <span><a href="login-register_mail.html" >邮箱注册</a></span>  -->
+    </div>
+  <form id="register_form1" class="nc-register-form">
+    <div class="clear"></div>
+    <div style="margin:30px 0 0 200px;">
+      <dl>
+        <dt>手机号：</dt>
+        <dd>
+          <input type="text" class="text" maxlength="11" placeholder="请输入手机号码" autocomplete="off" value="" id="mobile" name="mobile"  >
+        </dd>
+      </dl>
+      <div class="clear"></div>
+  
+        <dl>
+          <dt>验证码：</dt>
+          <dd> <span class="right block" style="margin-left:20px"><a class="makecode" href="javascript:freshVerify();"><img src="{:U('verify')}"  title="看不清楚，换一张" alt="看不清楚，换一张" name="codeimage" id="codeimage" style="height:36px;"/> </a></span>
+            <input type="text" name="captcha" maxlength="4" autocomplete="off" class="block right" placeholder="输入验证码" id="captcha" size="10"  style="width:225px" />
+          </dd>
+        </dl>
+        <div class="clear"></div>
+
+   
+        <dl>
+         <dt>短信码：</dt>
+          <dd>
+            <input class="block left" type="text" maxlength="6" placeholder="请输入短信动态码" autocomplete="off" id="d_captcha" name="d_captcha" size="10" tipMsg="" style="width:144px;margin-right:10px" />
+            <a href="javascript:void(0);" onclick="get_sms_captcha('1')" class="block right mobile-phone" id="sms_captcha1">发送短信验证</a> <a href="javascript:void(0);" class="block right mobile-phone" id="sms_captcha2" style="display:none;">等待<em>59</em>秒后重新获取验证码</a>
+            <div class="clear"></div>
+          </dd>
+        </dl>
+        <div class="clear"></div>
+        <div class="tiptext" id="sms_text"></div>
+   
+    </div>
+    <a href="javascript:void(0)" id="register_a1" class="next-step block">请进行手机验证，下一步</a> <a href="{:U('login')}"  class="denglu" title="我已是云产品用户，返回登录">我已是会员用户，返回登录</a>
+  </form>
+  <form id="register_form2" method="post" style="display:none"  action="http://www.shopnc.net/index.php?act=login&op=save_member" class="nc-register-form">
+    <input type="hidden" name="mobile" value="" />
+    <input type="hidden" name="d_captcha" value="" />
+    <div class="clear"></div>
+    <div style="margin:30px 0 0 200px;">
+      <dl>
+        <dt>用户名：</dt>
+        <dd>
+          <input type="text" id="user_name" name="user_name" class="text" autocomplete="off" placeholder="用户名：请使用3-20个中、英文、数字及“-”符号"/>
+        </dd>
+      </dl>
+      <dl>
+        <dt>密  码：</dt>
+        <dd>
+          <input type="password" id="password" name="password" class="text" autocomplete="off" placeholder="您的登录密码"/>
+        </dd>
+      </dl>
+      <dl>
+        <dt style="font-size:12px;line-hight:31px">确认密码：</dt>
+        <dd>
+          <input type="password" id="password_confirm" name="password_confirm" class="text" autocomplete="off" placeholder="再次输入密码"/>
+        </dd>
+      </dl>
+      <dl>
+        <dt>邮  箱：</dt>
+        <dd>
+          <input type="text" id="email" name="email" class="text" autocomplete="off" placeholder="输入常用邮箱作为验证及找回密码使用"/>
+        </dd>
+      </dl>
+      <dl class="clause-div">
+        <dd>
+          <input name="agree" type="checkbox" class="checkbox" id="clause" value="1" checked="checked" style="width:16px; height:14px" />
+          阅读并同意<a href="index.php-act=document.htm"  target="_blank" class="agreement" title="">《服务协议》</a></dd>
+      </dl>
+    </div>
+    <a href="javascript:void(0)" id="register_a2" class="next-step block">请填写登录信息，下一步</a>
+  </form>
+  <form  id="register_form3" style="display:none" class="nc-register-form">
+    <div class="clear"></div>
+    <div style="width:442px; margin:30px auto 0px;">
+      <h4 class="success">注册成功！请到及时到用户中心完善个人信息。</h4>
+      <span style="text-align:center;display:block;margin-top:10px;"><a href="index.php-act=login.htm"  style="color:#fff;">5秒后跳转到用户中心</a></span> </div>
+    </div>
+  </form>
+</div>
+</div>
+<div class="clear"></div>
+<div id="dialog" title="Basic dialog"> </div>
+<script src="__STATIC__/js/common.js" ></script>
+<script type="text/javascript" src="__STATIC__/js/jquery.validation.min.js"  charset="utf-8"></script> 
+<script type="text/javascript" src="__STATIC__/js/connect_sms.js"  charset="utf-8"></script> 
+<script type="text/javascript" src="__STATIC__/js/jquery-ui/jquery.ui.js"  charset="utf-8"></script>
+<link href="__STATIC__/js/jquery-ui/themes/smoothness/jquery.ui.css"  rel="stylesheet">
+</block>
+<block name="js">
+<script>
+$(function(){
+    jQuery.validator.addMethod("letters_name", function(value, element) {
+        return this.optional(element) || (/^[A-Za-z0-9\u4e00-\u9fa5_-]+$/i.test(value) && !/^\d+$/.test(value));
+    }, "Letters only please");
+    $("#register_form1").validate({
+        errorPlacement: function(error, element){
+            var error_td = element.parent('dd');
+            error_td.append(error);
+        },
+/*        success: function(label) {
+        },*/
+        onkeyup: false,
+        rules : {
+            mobile: {
+                required : true,
+                mobile : true,
+                remote   : {
+                    url : 'index.php-act=login&op=check_mobile.htm'/*tpa=http://www.shopnc.net/index.php?act=login&op=check_mobile*/,
+                    type: 'get',
+                    data:{
+                        mobile : function(){
+                            return $('#mobile').val();
+                        }
+                    }
+                }
+            },
+            d_captcha: {
+                required : true,
+                minlength: 6
+            }
+        },
+        messages : {
+            mobile: {
+                required : '<i class="icon-exclamation-sign"></i>手机号不能为空不能为空',
+                mobile : '<i class="icon-exclamation-sign"></i>请填写正确的手机号',
+                remote   : '<i class="icon-exclamation-sign"></i>手机号已经存在'
+            },
+            d_captcha: {
+                required : '<i class="icon-exclamation-sign"></i>',
+                minlength: '<i class="icon-exclamation-sign"></i>'
+            }
+        }
+    });
+//注册表单验证
+    $("#register_form2").validate({
+        errorPlacement: function(error, element){
+            var error_td = element.parent('dd');
+            error_td.append(error);
+        },
+        success: function(label) {
+        },
+        onkeyup: false,
+        rules : {
+            user_name : {
+                required : true,
+                rangelength : [3,20],
+                letters_name : true,
+                remote   : {
+                    url :'index.php-act=login&op=check_member&column=ok.htm'/*tpa=http://www.shopnc.net/index.php?act=login&op=check_member&column=ok*/,
+                    type:'get',
+                    data:{
+                        user_name : function(){
+                            return $('#user_name').val();
+                        }
+                    }
+                }
+            },
+            password : {
+                required : true,
+                minlength: 6,
+                maxlength: 20
+            },
+            password_confirm : {
+                required : true,
+                equalTo  : '#password'
+            },
+            agree : {
+                required : true
+            }
+        },
+        messages : {
+            user_name : {
+                required : '<i class="icon-exclamation-sign"></i>用户名不能为空',
+                rangelength : '<i class="icon-exclamation-sign"></i>用户名必须在3-20个字符之间',
+                letters_name: '<i class="icon-exclamation-sign"></i>可包含“_”、“-”，不能是纯数字',
+                remote   : '<i class="icon-exclamation-sign"></i>该用户名已经存在'
+            },
+            password  : {
+                required : '<i class="icon-exclamation-sign"></i>密码不能为空',
+                minlength: '<i class="icon-exclamation-sign"></i>密码长度应在6-20个字符之间',
+                maxlength: '<i class="icon-exclamation-sign"></i>密码长度应在6-20个字符之间'
+            },
+            password_confirm : {
+                required : '<i class="icon-exclamation-sign"></i>您必须再次确认您的密码',
+                equalTo  : '<i class="icon-exclamation-sign"></i>两次输入的密码不一致'
+            },
+            agree : {
+                required : '<i class="icon-exclamation-sign"></i>请勾选服务协议'
+            }
+        }
+    });
+
+
+    $('#register_a1').click(function(){
+        check_captcha();
+    });
+    $('#register_a2').click(function(){
+        $.post('index.php-act=login&op=save_member.htm'/*tpa=http://www.shopnc.net/index.php?act=login&op=save_member*/, $("#register_form2").serialize(), function(result){
+            if (result.state) {
+                $('#register_form2').hide();
+                $('#register_form3').show();
+                var t=setTimeout("window.location.href='index.php-act=login.htm'/*tpa=http://www.shopnc.net/console.php*/",5000);
+            } else {
+                $('#email').parent().find('label[class="error"]').remove().end().append('<label class="error">'+result.msg+'</label>');
+            }
+        },'json');
+    });
+});
+
+ function freshVerify() {
+    $('#codeimage').attr("src", $('#codeimage').attr("src").split("?")[0] + "?" + Math.random());
+  }
+</script>
+</block>

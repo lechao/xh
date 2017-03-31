@@ -1,0 +1,633 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="robots" content="all" />
+<meta name="author" content="ShopNC" />
+<meta name="copyright" content="ShopNC" />
+<meta name="keywords" content="Java商城系统,Java电商系统,B2B电商系统,java商城" />
+<meta name="description" content="Java商城系统选用目前最成熟且主流的框架对ShopNC电商系统进行整体重构，以确保其成为业内 最稳定、最高效的电商平台系统，多种类型数据库支持、模块化功能开发，完善的安全体系，强大的搜 索引擎。" />
+<link rel="shortcut icon" href="images/logo-ico.png">
+<title>Java商城系统_Java电商系统-ShopNC官网</title>
+<link href="css/base.css" tppabs="http://www.shopnc.net/css/base.css" rel="stylesheet">
+<link href="css/home.css" tppabs="http://www.shopnc.net/css/home.css" rel="stylesheet">
+<link href="css/animate.css" tppabs="http://www.shopnc.net/css/animate.css" rel="stylesheet">
+<link href="css/font/css/font-awesome.css" tppabs="http://www.shopnc.net/css/font/css/font-awesome.css" rel="stylesheet">
+<script src="js/html5.js" tppabs="http://www.shopnc.net/js/html5.js"></script>
+<script src="js/jquery.js" tppabs="http://www.shopnc.net/js/jquery.js"></script>
+<script src="js/shopnc.js" tppabs="http://www.shopnc.net/js/shopnc.js"></script>
+<script src="js/slider.js" tppabs="http://www.shopnc.net/js/slider.js"></script>
+<!--<script src="http://www.shopnc.net/js/jquery.smint.js"></script>-->
+<!-- script type="text/javascript" src="http://api.geetest.com/get.php"></script> -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hm.js-164f1210687db8355c7b3eec5df84afa"/*tpa=http://hm.baidu.com/hm.js?164f1210687db8355c7b3eec5df84afa*/;
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div class="index-top">
+  <div class="top-box">
+    <div class="left">售前电话：<b>400-880-1509</b></div>
+    <div class="right">
+            <span class="mr30"><a href="login.html" tppabs="http://www.shopnc.net/login.html" style="color:#ddddde" title="会员登录" target="_blank">会员登录</a> | <a href="login-register.html" tppabs="http://www.shopnc.net/login-register.html" style="color:#ddddde" title="注册" target="_blank">注册</a></span>
+          </div>
+  </div>
+</div>
+<div class="topnav" id="topnav"> 
+  <!--<div class="clear"></div>-->
+  <div class="top-wrap">
+    <div class="top-logo"><a href="index.htm" tppabs="http://www.shopnc.net/" title="ShopNC" ><img src="images/header_logo.png" tppabs="http://www.shopnc.net/images/header_logo.png" width="auto" height="100%" alt="ShopNC电商系统"/></a></div>
+    <ul class="top-nav primary">
+      <li class="nav-list"><a href="index.htm" tppabs="http://www.shopnc.net/" class="nav-list-link" title="首页">首页</a></li>
+      <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品">产品<i></i></a>
+        <div class="clear"></div>
+        <div class="sub">
+          <div class="little-up"></div>
+          <div class="cont"> <a href="mall-b2b2c.html" tppabs="http://www.shopnc.net/mall-b2b2c.html" title="B2B2C多用户商城系统">
+            <dl style="border-bottom: dotted 1px #CCC;" >
+              <dt>B2B2C多用户商城系统</dt>
+              <dd>PHP语言开发，功能强大，易用性强，电商创业最佳选择。</dd>
+            </dl>
+            </a><a href="mall-java.html" tppabs="http://www.shopnc.net/mall-java.html" title="Java多用户商城系统">
+            <dl>
+              <dt>Java多用户商城系统</dt>
+              <dd>Java技术，安全、稳定、结构合理、高并发性、强扩展性、集群部署。</dd>
+            </dl>
+            </a> </div>
+        </div>
+      </li>
+      <!--       <li class="nav-list"><a href="http://www.shopnc.net/mall-b2b2c.html" class="nav-list-link" title="B2B2C">B2B2C</a></li>
+       <li class="nav-list"><a href="http://www.shopnc.net/mall-java.html" class="nav-list-link" title="Bizpower">Bizpower</a></li>-->
+      <li class="nav-list"><a href="solution-list.html" tppabs="http://www.shopnc.net/solution-list.html" class="nav-list-link" title="解决方案">解决方案</a>
+        <div class="clear"></div>
+        <!--<div class="sub">
+            	<ul class="middle">
+                <li style="width:370px">
+                	<h1>热门解决方案</h1>
+                    <div><a href="http://www.shopnc.net/solution-solution_department.html" class="full-box"><span class="right">></span>综合百货行业</a><p class="full-box">传统商超百货行业通过电商系统搭建快捷、便利的购物平台</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder1.html" class="full-box"><span class="right">></span>跨境零售行业</a><p class="full-box">海外直邮、保税集货、清关备货，三种跨境模式下的解决方案</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder4.html" class="full-box"><span class="right">></span>电视购物行业</a><p class="full-box">电视端、PC端、移动端、触屏设备等一体化电视购物商城系统</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder3.html" class="full-box"><span class="right">></span>社区O2O行业</a><p class="full-box">线上线下完美结合，聚集消费群体，体验新时尚消费的快感</p></div>
+                </li>
+                <li style="width:370px">
+                	<h1>专业解决方案</h1>
+                    <div><a href="http://www.shopnc.net/solution.html" class="full-box"><span class="right">></span>汽车行业</a><p class="full-box">新车及二手车销售、汽车服务、汽车金融为主体的解决方案</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder2.html" class="full-box"><span class="right">></span>母婴行业</a><p class="full-box">全网平台搭建，多触点连接用户，打通母婴市场全渠道的方案</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder5.html" class="full-box"><span class="right">></span>医药行业</a><p class="full-box">针对医药流通领域，提供多种经营电商业务模式的系统方案</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/solution-solution_crossborder6.html" class="full-box"><span class="right">></span>工业品行业</a><p class="full-box">解决信息流、业务流、资金流、物流等工业电商核心的方案</p></div>
+                </li>
+                <li style="width:370px">
+                	<h1>推荐商品</h1>
+                    <div><a href="http://www.shopnc.net/mall-b2b2c.html" class="full-box"><span class="right">></span>B2B2C商城</a><p class="full-box">融合B2B、B2C模式，助力打通上下游全渠道产业链</p></div>
+                    <div class="clear none-box"></div>
+                    <div><a href="http://www.shopnc.net/mall-b2b.html" class="full-box"><span class="right">></span>B2B商城</a><p class="full-box">以垂直行业，大宗交易为基础模型的商城系统</p></div>
+                    <div class="clear none-box"></div>
+
+                 	<div><a href="http://www.shopnc.net/mall-o2o.html" class="full-box"><span class="right">></span>O2O商城</a><p class="full-box">打造一站式本地化O2O综合生活服务平台，体验时尚消费</p></div>
+                    <div class="clear none-box"></div>
+                </li>
+            </ul>
+            </div>--> 
+      </li>
+      <li class="nav-list"><a href="case.html" tppabs="http://www.shopnc.net/case.html" class="nav-list-link" title="成功案例">成功案例</a></li>
+      <!--<li class="nav-list"><a href="http://www.shopnc.net/college.html" class="nav-list-link" title="使用讲堂">使用讲堂</a></li>-->
+      <li class="nav-list"><a href="cooperation.html" tppabs="http://www.shopnc.net/cooperation.html" class="nav-list-link" title="合作代理">合作伙伴</a></li>
+      <li class="nav-list"><a href="aboutus.html" tppabs="http://www.shopnc.net/aboutus.html" class="nav-list-link" title="关于我们">关于我们</a></li>
+    </ul>
+  </div>
+</div>
+<div class="clear"></div>
+<script type="text/javascript">
+    $(function(){
+        if ($('#display_ban').val()) {
+            $('#banner').hide();
+        } else {
+            $('#banner').flexslider({animation:"slide",slideshowSpeed:4000});
+        }
+
+    });
+</script>
+<div id="banner" class="flexslider clear">
+  <ul class="slides">
+    <li style="background:url(images/banner-16.jpg) bottom no-repeat; position:relative;"><a href="javascript:if(confirm('http://java.bizpower.com/web  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://java.bizpower.com/web'" tppabs="http://java.bizpower.com/web" style="width:250px; height:90px; position:absolute; left:50%; margin-left:-130px; top:238px; z-index:1;display:block;"></a><a href="mall-java.html" tppabs="http://www.shopnc.net/mall-java.html" title="Java多用户商城系统" target="_blank" style=" display:block; width:100%; height:570px;"></a></li>
+
+    <li style="background:url(images/banner-15.jpg) bottom no-repeat; position:relative;"><a  href="javascript:if(confirm('http://b2b2c.shopnctest.com/dema/shop/index.php  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://b2b2c.shopnctest.com/dema/shop/index.php'" tppabs="http://b2b2c.shopnctest.com/dema/shop/index.php" style="width:250px; height:90px; position:absolute; left:50%; margin-left:-130px; top:238px; z-index:1;display:block;"></a><a href="mall-b2b2c.html" tppabs="http://www.shopnc.net/mall-b2b2c.html" title="B2B2C多用户商城系统" target="_blank" style=" display:block; width:100%; height:570px;"></a></li>
+    
+    <!--        <li style="background:url(images/banner-08.jpg) bottom no-repeat"><a href="http://www.shopnc.net/special-javanew.html" title="JAVA-电商平台" target="_blank" style=" display:block; width:100%; height:670px;"></a></li>-->
+    <li style="background:url(images/banner-10.jpg) bottom no-repeat"><a href="product-b2b2c.html" tppabs="http://www.shopnc.net/product-b2b2c.html" title="PHP-B2B2C商城" target="_blank" style=" display:block; width:100%; height:570px;"></a></li>
+    <li style="background:url(images/banner-09.jpg) bottom no-repeat"><a href="mobile-ios.html" tppabs="http://www.shopnc.net/mobile-ios.html" title="移动应用" target="_blank" style=" display:block; width:100%; height:670px;"></a></li>
+    <li style="background:url(images/banner-12.jpg) bottom no-repeat"><a href="solution-list.html" tppabs="http://www.shopnc.net/solution-list.html" title="电商系统解决方案" target="_blank" style=" display:block; width:100%; height:570px;"></a></li>
+    
+    <!--<li style="background:url(images/banner-04.jpg) bottom no-repeat"><a href="http://www.shopnc.net/saas-cloud.html" title="云分销系统" target="_blank" style=" display:block; width:100%; height:670px;"></a></li>
+         <li style="background:url(images/banner-07.jpg) bottom no-repeat"><a href="http://www.shopnc.net/application.html" title="ShopNC渠道招募" target="_blank" style="display:block; width:100%; height:670px;"></a></li>	-->
+    
+    <li style="background:url(images/banner-05.jpg) bottom no-repeat"><a href="sp-book.html" tppabs="http://www.shopnc.net/sp-book.html" title="工具图书撰写" target="_blank" style="display:block; width:100%; height:570px;"></a></li>
+  </ul>
+</div>
+<div class="clear"></div>
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<script type="text/javascript" src="special/bizpower/js/html5.js" tppabs="http://www.shopnc.net/special/bizpower/js/html5.js"></script>
+<script type="text/javascript" src="special/bizpower/js/wow.min.js" tppabs="http://www.shopnc.net/special/bizpower/js/wow.min.js"></script>
+<script type="text/javascript" src="special/bizpower/js/jquery.particleground.min.js" tppabs="http://www.shopnc.net/special/bizpower/js/jquery.particleground.min.js"></script>
+<script type="text/javascript" src="special/bizpower/js/bizpower.js" tppabs="http://www.shopnc.net/special/bizpower/js/bizpower.js"></script>
+
+<title></title>
+<link rel="stylesheet" type="text/css" href="special/bizpower/css/animate.css" tppabs="http://www.shopnc.net/special/bizpower/css/animate.css">
+<link rel="stylesheet" type="text/css" href="special/bizpower/css/style.css" tppabs="http://www.shopnc.net/special/bizpower/css/style.css">
+</head>
+<body>
+<div class="header">
+  <div class="particleground" id="particles"></div>
+  <div class="wrapper">
+    <div class="program spring wow fadeIn">spring</div>
+    <div class="program springMVC wow fadeIn" data-wow-delay="500ms">springMVC</div>
+    <div class="program hibernate wow fadeIn" data-wow-delay="800ms">hibernate</div>
+    <div class="program oracle wow fadeIn" data-wow-delay="1200ms">oracle</div>
+    <div class="program mysql wow fadeIn" data-wow-delay="1600ms">mysql</div>
+    <div class="program postgresql wow fadeIn" data-wow-delay="2000ms">postgresql</div>
+    <div class="program sqlserver wow fadeIn" data-wow-delay="2400ms">sqlserver</div>
+<!--    <div class="tit-txt subtitle-a wow fadeInLeft" data-wow-delay="1200ms">Bizpower</div>-->
+    <div class="tit-txt subtitle-b wow fadeInRight" data-wow-delay="1200ms">企业级电商平台系统软件</div>
+    <div class="tit-txt maintitle wow bounceInDown" data-wow-duration="2000ms">十年磨砺只为全新一刻</div>
+    <div class="tit-txt subtitle-c wow fadeInUp" data-wow-delay="1800ms">国内首屈一指的Java程序多用户商城,B2B2C/B2B模式引领商业动力</div>
+    <a href="javascript:if(confirm('http://java.bizpower.com/web  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://java.bizpower.com/web'" tppabs="http://java.bizpower.com/web" target="_blank" class="demo-url wow zoomInDown" data-wow-delay="2500ms" title="访问最新PC端商城演示站">立即演示</a>
+    <div class="QR-code wow zoomInDown" data-wow-delay="3000ms"></div>
+  </div>
+</div>
+<div class="main-layout function-01">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">模板设计 一目了然</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">我们考虑过电商客户希望自己的商城首页内容丰富、个性多变而且又无需去修改复杂的模板文件，只需从管理平台上传图片、修改文字、选择商品就可以轻松完成首页编辑工作，现在来试试首页编辑功能，让这项工作如此轻松上手。</h4>
+    <div class="step step1 wow zoomIn" data-wow-delay="1000ms">
+      <div class="pic wow flipInX" data-wow-delay="2300ms"></div>
+      <dl>
+        <dt>选择模版类型</dt>
+        <dd>首先您要确定建立的模板类型为哪一种？这里有普通、品牌、广告条类型供选择。</dd>
+      </dl>
+    </div>
+    <div class="step step2 wow zoomIn" data-wow-delay="1250ms">
+      <div class="pic wow flipInX" data-wow-delay="2300ms"></div>
+      <dl>
+        <dt>设置色彩风格</dt>
+        <dd>接下来需要设置一些基础内容信息并为这个模板选择一个漂亮色彩风格吧！</dd>
+      </dl>
+    </div>
+    <div class="step step3 wow zoomIn" data-wow-delay="1500ms">
+      <div class="pic wow flipInX" data-wow-delay="2300ms"></div>
+      <dl>
+        <dt>确定模板布局</dt>
+        <dd>系统为您预先设置了两套模板布局供选择使用，喜欢其中哪一个？</dd>
+      </dl>
+    </div>
+    <div class="step step4 wow zoomIn" data-wow-delay="1750ms">
+      <div class="pic wow flipInX" data-wow-delay="2300ms"></div>
+      <dl>
+        <dt>设计模板内容</dt>
+        <dd>现在，您可以在模板设计页面进行模块内容编辑了，轻松几步搞定复杂工作。</dd>
+      </dl>
+    </div>
+    <div class="bottom-pic wow fadeInUp" data-wow-duration="2000ms" date-wow-delay="1500ms"></div>
+  </div>
+</div>
+<div class="main-layout function-02">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">商城频道  聚焦商品</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">当更多的商家开店、更多的商品上架，每件商品都想成为“首页明星”的时候，该如何解决？该系统给您一个满意的答案。商城频道功能绑定商品分类，可视化编辑，自定义导航、楼层模块，聚焦更多商品。</h4>
+    <div class="action action1 wow bounceIn" data-wow-delay="1000ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>模块化理念构思，通过对顶部与楼层布局模板的选择组合，绑定商城商品分类，设计构成商城频道页面。</p>
+    </div>
+    <div class="action action2 wow bounceIn" data-wow-delay="1250ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>顶部楼层模块可自定义导航菜单、菜单图标；可视化焦点幻灯大图与三联轮播广告自由添加，丰富多变。</p>
+    </div>
+    <div class="action action3 wow bounceIn" data-wow-delay="1500ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>楼层模块选择预设布局，可视化内容设计，添加多组手动选择推荐商品或自动排序规则显示某分类商品内容。</p>
+    </div>
+    <div class="pic pic1 wow zoomIn" data-wow-delay="2000ms"></div>
+    <div class="pic pic2 wow zoomInRight" data-wow-delay="3000ms"></div>
+    <div class="pic pic3 wow zoomInLeft" data-wow-delay="3250ms"></div>
+    <div class="pic pic4 wow zoomInRight" data-wow-delay="3500ms"></div>
+    <div class="pic pic5 wow zoomInLeft" data-wow-delay="3750ms"></div>
+  </div>
+</div>
+<div class="main-layout function-03">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">商家促销</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">商城大促、季节打折、品牌推广这些活动都离不开对应专题页面，为此，系统增加了专题页编辑制作功能；配合主导航链接设定以及首页、频道页链接操作选择，用户可以从任何地方跳转到精彩的专题页面中。</h4>
+    <div class="action action1 wow bounceIn" data-wow-delay="1000ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>专题页面的背景提供更多选项，不但可以选择颜色、上传图片，更可以对背景填充方式、高度等逐一进行设置。</p>
+    </div>
+    <div class="action action2 wow bounceIn" data-wow-delay="1250ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>灵活使用图片热点功能，可以将一副设计好的图片进行上传、并添加热点区域以及操作方式，组合出多变的页面。</p>
+    </div>
+    <div class="action action3 wow bounceIn" data-wow-delay="1500ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>单图链接、多图轮换、自定义内容编辑、商品推荐；丰富的编辑功能让专题页面的制作轻松简单。</p>
+    </div>
+  </div>
+  <ul class="special-templates">
+    <li class="template1 wow bounceInLeft" data-wow-delay="3200ms"></li>
+    <li class="template2 wow bounceInLeft" data-wow-delay="3000ms"></li>
+    <li class="template3 wow bounceInLeft" data-wow-delay="2800ms"></li>
+    <li class="template4 wow bounceInLeft" data-wow-delay="2600ms"></li>
+    <li class="template5 wow bounceInLeft" data-wow-delay="2400ms"></li>
+    <li class="template6 wow bounceInLeft" data-wow-delay="2200ms"></li>
+    <li class="template7 wow bounceInLeft" data-wow-delay="2000ms"></li>
+  </ul>
+</div>
+<div class="main-layout function-04">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">平台统计 数据分析</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">新增多种平台统计功能，丰富后台默认首页统计数据，可对会员、店铺、商品、订单进行多种数据统计及分析，让运营管理者对商城各项数据指标一目了然，为及时调整运营策略提供有力的数据支撑。</h4>
+    <ul class="stat-items wow">
+      <li class="item1 wow bounceInUp" data-wow-delay="2000ms">
+        <h5 class="text">会员统计</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="3400ms"></span></li>
+      <li class="item2 wow bounceInUp" data-wow-delay="2200ms">
+        <h5 class="text">行业统计</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="3600ms"></span></li>
+      <li class="item3 wow bounceInUp" data-wow-delay="2400ms">
+        <h5 class="text">店铺统计</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="3800ms"></span></li>
+      <li class="item4 wow bounceInUp" data-wow-delay="2600ms">
+        <h5 class="text">商品统计</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="4000ms"></span></li>
+      <li class="item5 wow bounceInUp" data-wow-delay="2800ms">
+        <h5 class="text">营销分析</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="4200ms"></span></li>
+      <li class="item6 wow bounceInUp" data-wow-delay="3000ms">
+        <h5 class="text">售后分析</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="4400ms"></span></li>
+      <li class="item7 wow bounceInUp" data-wow-delay="3200ms">
+        <h5 class="text">统计设置</h5>
+        <span class="icon wow zoomInUp" data-wow-delay="4600ms"></span></li>
+    </ul>
+    <div class="stat-line wow zoomInUp" data-wow-delay="1000ms"></div>
+  </div>
+</div>
+<div class="main-layout function-05">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">预售定金 赠品套装</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">商品促销是商城系统销售过程中最重要的营销手段，增设店铺商品全款预售、定金预售、优惠套装、商品赠品等多种必备实用促销功能。</h4>
+    <div class="sale item1 wow bounceIn" data-wow-delay="1000ms">
+      <div class="icon"></div>
+      <h3>定金预售</h3>
+      <div class="pic wow zoomIn" data-wow-delay="1500ms"></div>
+      <ul class="wow zoomIn" data-wow-delay="2000ms">
+        <li>定金预售商品可选择添加商品SPU，并可勾选参加活动的商品SKU以及定金比例、预售时间段等参数选项。</li>
+        <li>定金预售商品在预售期间客户首付定金购买，并在规定的期限内付清尾款，商家提供发货。</li>
+        <li>定金预售不支持批发模式商品，添加后不能随意修改定金比例及时间段设定。</li>
+      </ul>
+    </div>
+    <div class="sale item2 wow bounceIn" data-wow-delay="2000ms">
+      <div class="icon"></div>
+      <h3>优惠套装</h3>
+      <div class="pic wow zoomIn" data-wow-delay="2500ms"></div>
+      <ul class="wow zoomIn" data-wow-delay="3000ms">
+        <li>选择添加最多五个商品，并可独立设定所添加商品SKU以及套装内部折扣价格。</li>
+        <li>商品详情页面可展示多个优惠套装切换，用户下单可选择商品SKU规格。</li>
+        <li>购物车内套装以组的形式展现，可整组添加数量并可合并加入收藏等等。</li>
+      </ul>
+    </div>
+    <div class="sale item3 wow bounceIn" data-wow-delay="3000ms">
+      <div class="icon"></div>
+      <h3>商品赠品</h3>
+      <div class="pic wow zoomIn" data-wow-delay="3500ms"></div>
+      <ul class="wow zoomIn" data-wow-delay="4000ms">
+        <li>开启促销活动后选择添加活动商品；确定活动商品后进行赠品捆绑，最多可选择添加五种赠品，赠品可选择商品SKU值。</li>
+        <li>赠品活动仅支持零售型商品，赠品价格不计算为订单价格，售出赠品将减少商品库存存。</li>
+        <li>移动端对应更新赠品显示。</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="main-layout function-06">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">微信营销 多人拼团</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms">新增微信管理功能，平台可设置公众帐号并对公众帐号菜单、回复等常用功能进行设置，逐步强化电商品台与微信之间的深度融合。</h4>
+    <div class="action action1 wow bounceIn" data-wow-delay="1000ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>商家发起拼团活动制定多人拼团规则、人数、时间段以及参与活动的商品SKU。</p>
+    </div>
+    <div class="action action2 wow bounceIn" data-wow-delay="1250ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>用户在微信wap商城购买活动商品后系统自动开团，根据规则判断拼团成功与否。</p>
+    </div>
+    <div class="action action3 wow bounceIn" data-wow-delay="1500ms"><span class="icon wow zoomIn" data-wow-delay="2000ms"></span>
+      <p>已购会员分享拼团商品地址给微信好友，邀请好友加入拼团，人数到达后拼团活动成功。</p>
+    </div>
+    <div class="right-box">
+      <div class="pic pic1 wow fadeIn" data-wow-delay="2000ms"></div>
+      <div class="pic pic2 wow zoomInUp" data-wow-delay="2500ms"></div>
+      <div class="pic pic3 wow fadeInDown" data-wow-delay="5000ms"></div>
+      <ul class="figure">
+        <li class="f1 wow fadeInLeft" data-wow-delay="3600ms"></li>
+        <li class="f2 wow fadeInLeft" data-wow-delay="3400ms"></li>
+        <li class="f3 wow fadeInLeft" data-wow-delay="3200ms"></li>
+        <li class="f4 wow fadeIn" data-wow-delay="3000ms"></li>
+        <li class="f5 wow fadeInRight" data-wow-delay="3200ms"></li>
+        <li class="f6 wow fadeInRight" data-wow-delay="3400ms"></li>
+        <li class="f7 wow fadeInRight" data-wow-delay="3600ms"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="main-layout function-07">
+  <div class="wrapper">
+    <h2 class="function-title wow fadeIn">更多功能</h2>
+    <h4 class="function-subtitle wow fadeIn" data-wow-delay="500ms"></h4>
+    <ol class="function-list wow fadeInUp">
+      <li><i>1</i>新增商家中心店铺装修功能，可视化编辑店铺首页、专题页面，可设置背景项、单图链接、热点图片、自定义内容、推荐商品等。</li>
+      <li><i>2</i>新增用户投诉功能，当买卖双方发生交易问题无法自行解决的时候，会员可从已有的订单、退款单申请投诉，由平台进行仲裁解决，保证利益。</li>
+      <li><i>3</i>新增店铺搜索功能，可在顶部主搜索条点击切换至店铺项，输入店铺名称关键字查找，以列表形式展现店铺基本信息、最新商品、动态评分等。</li>
+      <li><i>4</i>新增商品搜索多选属性索引功能，将原有的属性选择只能使用单一属性值变为可多选形式，提高商品索引选择范围。</li>
+      <li><i>5</i>增加商城前台会员侧边栏功能、可显示会员信息、红包优惠券、购物车、收藏、浏览记录等多项常用信息、并可激活在线IM聊天。</li>
+      <li><i>6</i>在线客服功能在原基础上进行改进与完善，增加聊天记录查询、可本地上传图片以及聊天窗口自动将商品链接转化成介绍内容等。</li>
+      <li><i>7</i>移动端更新功能：店铺搜索、到货通知、商品列表页面多属性索引、单品赠品、预售定金、IM商品链接地址转换与PC同步，优化界面、用户体验。</li>
+      <li><i>8</i>商城系统后台增加商品分类手动推荐商品设置功能。</li>
+      <li><i>9</i>商家中心相册目录建立、图片移动、删除等功能。</li>
+      <li><i>10</i>商城会员部分增加商品到货通知功能，手机短信、站内消息等。</li>
+      <li><i>11</i>商城系统优化缓存体系，进一步提高整体性能。</li>
+      <li><i>12</i>商城系统优化队列机制，进一步提高处理速度。</li>
+      <li><i>13</i>商城系统支持使用阿里云对象存储(OSS)替代本地存储。</li>
+      <li><i>14</i>商城系统图片服务支持多域名部署，提高图片并行加载速度。</li>
+    </ol>
+  </div>
+</div>
+</body>
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+  new WOW().init();
+};
+</script>
+</html>
+<div class="footer">
+  <div class="footer-container">
+    <div class="left-side">
+      <div class="site-name"><a href="###"><img src="images/foot-logo.png" tppabs="http://www.shopnc.net/images/foot-logo.png" alt="天津市网城天创科技有限责任公司"/></a><a href="javascript:if(confirm('http://weibo.com/iamshopnc?is_hot=1  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://weibo.com/iamshopnc?is_hot=1'" tppabs="http://weibo.com/iamshopnc?is_hot=1" target="_blank"><img src="images/sina_logo.png" tppabs="http://www.shopnc.net/images/sina_logo.png" alt="ShopNC新浪微博"/></a><a href="javascript:if(confirm('http://t.qq.com/iamshopnc  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://t.qq.com/iamshopnc'" tppabs="http://t.qq.com/iamshopnc" target="_blank"><img src="images/tencent_logo.png" tppabs="http://www.shopnc.net/images/tencent_logo.png" alt="ShopNC腾讯微博"/></a></div>
+      <!--<div style="padding-bottom:20px; font-size:13px; font-weight:normal">股票简称：网城科技；股票代码：836538</div>
+      <div style="padding-bottom:8px; font-size:13px; font-weight:normal">高新技术企业：天津市网城科技股份有限公司&nbsp;&nbsp;&nbsp;证书编号：GR201512000799</div>-->
+      <div style="padding-bottom:8px; font-size:13px; font-weight:normal">高新技术企业：天津市网城天创科技有限责任公司&nbsp;&nbsp;&nbsp;证书编号：GR201512000273</div>
+     <div class="site-intro"><!-- 软著登字第0650314号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->备案许可证号：津ICP备10001600号-2</div>
+      <div class="site-intro">版权所有 2007-2016 © 天津市网城天创科技有限责任公司</div>
+      <!--<div class="anquan"><a href="http://www.anquan.org/authenticate/cert/?site=www.shopnc.net&at=official" target="_blank" ><img src="http://www.shopnc.net/images/gw_124x47.png" alt=""/></a>&nbsp;<a href="http://www.anquan.org/authenticate/cert/?site=www.shopnc.net&at=realname" target="_blank"><img src="http://www.shopnc.net/images/sm_124x47.png" alt=""/></a></div>-->
+    </div>
+    <div class="right-side">
+      <dl>
+        <dt>售前咨询热线</dt>
+        <dd><i class="fa fa-phone"></i>400-880-1509</dd>
+        <dt>售后服务电话</dt>
+        <dd><i class="fa fa-phone"></i>022-58306929</dd>
+        <dd class="worktime">工作时间：周一至周五(08:30~18:00)</dd>
+      </dl>
+      <div class="QRcode"><img src="images/shopnc_weixin.jpg" tppabs="http://www.shopnc.net/images/shopnc_weixin.jpg" alt="ShopNC方官网微信号码"/>
+        <p>扫描上方官网微信号码<br/>
+          掌握最新官方系统动态</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main-im">
+  <div id="open_im" class="open-im">&nbsp;</div>
+  <div class="im_main" id="im_main">
+    <div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>
+    <a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="B2B2C销售咨询"> <span>QQ客服咨询</span>
+    <div class="qq-container"></div>
+    <div class="qq-hover-c"><img class="img-qq" src="images/im/qq.png" tppabs="http://www.shopnc.net/images/im/qq.png"></div>
+    </a>
+    <div class="im-tel">
+      <div class="b2b">
+        <div>销售咨询</div>
+        <div class="tel-num"> <a target="blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=97325724&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=97325724&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=97325724&site=qq&menu=yes"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png" alt="B2B2C销售1"/></a></div>
+        <div class="tel-num"><a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png" alt="B2B2C销售2"/></a></div>
+        <div class="tel-num"><a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515890&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515890&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515890&site=qq&menu=yes"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png" alt="B2B2C销售3"/></a></div>
+      </div>
+      
+<!--      <div class="qd">
+        <div>渠道代理</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515888&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="渠道咨询1"/></a></div>
+       
+      </div>-->
+      
+      <!--<div class="saas">
+        <div>云产品销售咨询</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="SaaS销售咨询1"/></a></div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="SaaS销售咨询2"/></a></div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515888&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="SaaS销售咨询3"/></a></div>
+      </div>-->
+	 <div class="solution">
+     	<div class="tel-num" style="margin:16px 0px 6px"><a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515883&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515883&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515883&site=qq&menu=yes"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png" alt="解决方案"/></a></div>
+        <!--<div>汽车、母婴</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515883&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="汽车行业"/></a></div>
+        <div>百货、O2O</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="百货行业"/></a></div>
+        <div>跨境、工业品</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515886&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="跨境行业"/></a></div>
+        <div>电视购物</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="跨境行业"/></a></div>
+        <div>医药行业</div>
+        <div class="tel-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes"><img border="0" src="http://www.shopnc.net/images/im/qq_ico.png" alt="跨境行业"/></a></div>-->
+      </div>
+      <div class="b2b">
+      <div>售后服务</div>
+      <div class="tel-num"><a target="_blank" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515867&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515867&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515867&site=qq&menu=yes"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png" alt="售后服务"/></a></div>
+      </div>
+    </div>
+    <div class="im-footer" style="position:relative">
+      <div class="weixing-container">
+        <div class="weixing-show">
+          <div class="weixing-txt">微信扫一扫<br>
+            关注官网微信</div>
+          <img class="weixing-ma" src="images/shopnc_weixin.jpg" tppabs="http://www.shopnc.net/images/shopnc_weixin.jpg">
+          <div class="weixing-sanjiao"></div>
+          <div class="weixing-sanjiao-big"></div>
+        </div>
+      </div>
+      <div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+</div>
+<div id="DEMOBox" class="dialog dialog0">
+  <div class="dialog-faq">
+    <p class="welcome">尊敬的用户，欢迎您光临ShopNC官方网站，很高兴您对我们的产品有兴趣。<br/>
+      如需体验商城具体功能，请联系客服人员<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes" target="_blank" title="客服咨询1"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png"/></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes" target="_blank" title="客服咨询2"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png"/></a>提供相关测试地址及账号。</p>
+    <p>你也可以直接拨打我们的免费热线：<a href="tel:4008801509"><i class="fa fa-phone"></i>400-880-1509</a>立即询问。</p>
+  </div>
+  <div class="demosite">
+    <ul>
+      <li class="b2b2c">
+        <div class="pic"></div>
+        <h3>ShopNC B2B2C电商系统</h3>
+        <a href="javascript:if(confirm('http://b2b2c.shopnctest.com/dema  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://b2b2c.shopnctest.com/dema'" tppabs="http://b2b2c.shopnctest.com/dema" class="btn" target="_blank">演示体验</a>
+        <p><a href="javascript:if(confirm('http://doc.shopnc.net/b2b2c  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://doc.shopnc.net/b2b2c'" tppabs="http://doc.shopnc.net/b2b2c" target="_blank">在线帮助</a></p>
+      </li>
+      <li class="c2c">
+        <div class="pic"></div>
+        <h3>ShopNC C2C多用户商城</h3>
+        <a href="javascript:if(confirm('http://pan.baidu.com/s/1gd1i1Dx  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://pan.baidu.com/s/1gd1i1Dx'" tppabs="http://pan.baidu.com/s/1gd1i1Dx" class="btn" target="_blank">下载试用</a>
+        <p><span>在线帮助</span> <a href="javascript:if(confirm('http://doc.shopnc.net/shopnc2013/shop/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://doc.shopnc.net/shopnc2013/shop/'" tppabs="http://doc.shopnc.net/shopnc2013/shop/" target="_blank">商城</a> | <a href="javascript:if(confirm('http://doc.shopnc.net/shopnc2013/circle/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://doc.shopnc.net/shopnc2013/circle/'" tppabs="http://doc.shopnc.net/shopnc2013/circle/" target="_blank">圈子</a> | <a href="javascript:if(confirm('http://doc.shopnc.net/shopnc2013/microshop/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://doc.shopnc.net/shopnc2013/microshop/'" tppabs="http://doc.shopnc.net/shopnc2013/microshop/" target="_blank">微商城</a> | <a href="javascript:if(confirm('http://doc.shopnc.net/shopnc2013/cms/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://doc.shopnc.net/shopnc2013/cms/'" tppabs="http://doc.shopnc.net/shopnc2013/cms/" target="_blank">CMS</a></p>
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="HBox" class="dialog dialog1">
+  <div class="dialog-faq">
+    <p class="welcome">尊敬的用户，欢迎您光临ShopNC官方网站，很高兴您对我们的产品有兴趣。<br/>
+      还请您填写以下信息，我们会及时给您提供详细资料和解答。</p>
+    <p>你也可以直接拨打我们的免费热线：<a href="tel:4008801509"><i class="fa fa-phone"></i>400-880-1509</a>客服<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515881&site=qq&menu=yes" target="_blank" title="客服咨询1"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png"/></a><a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=2850515866&site=qq&menu=yes" target="_blank" title="客服咨询2"><img border="0" src="images/im/qq_ico.png" tppabs="http://www.shopnc.net/images/im/qq_ico.png"/></a>。</p>
+  </div>
+  <form action="" method="post" onsubmit="return false;" id="apply_form">
+    <input name="nchash" type="hidden" value="8cc597fc" />
+    <div class="dialog-form">
+      <dl>
+        <dt>联系人<font color="#ff0000">*</font></dt>
+        <dd>
+          <input type="text" name="name" id="apply_name" value="" class="input-txt name" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>联系QQ<font color="#ff0000">*</font></dt>
+        <dd>
+          <input type="text" name="qq" id="apply_qq" value="" class="input-txt qq" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>常用邮箱<font color="#ff0000">*</font></dt>
+        <dd>
+          <input type="text" name="email" id="apply_email" value="" class="input-txt email" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>手机号码<font color="#ff0000">*</font></dt>
+        <dd>
+          <input type="text" name="phone" id="apply_phone" value="" class="input-txt phone" />
+        </dd>
+      </dl>
+      <dl>
+        <dt>验证码<font color="#ff0000">*</font></dt>
+        <dd>
+          <input type="text" name="code" value="" id="apply_code" class="input-txt code w60" />
+          <img src="" name="applyimage" border="0"/> <a href="JavaScript:void(0);" id="for-a" onclick="$('img[name=\'applyimage\']').attr('src', 'index.php?act=seccode&op=makecode&nchash=8cc597fc&t=' + Math.random());">换个</a> </dd>
+      </dl>
+      <input type="submit" value="确认提交" class="submitBtn" />
+    </div>
+  </form>
+</div>
+<script src="js/jquery.hDialog.js" tppabs="http://www.shopnc.net/js/jquery.hDialog.js"></script> 
+<script>
+//var _hmt = _hmt || [];
+//(function() {
+// var hm = document.createElement("script");
+//  hm.src = "../hm.baidu.com/hm.js-ee2bb179ae2019bb73fb2e5b167de486"/*tpa=http://hm.baidu.com/hm.js?ee2bb179ae2019bb73fb2e5b167de486*/;
+//  var s = document.getElementsByTagName("script")[0]; 
+//  s.parentNode.insertBefore(hm, s);
+//})();
+$(function(){
+	$('.demo0').hDialog({title: 'ShopNC—产品在线演示地址 ', box:'#DEMOBox', width: 640, height: 500, boxBg: '#FAFAFA', modalBg: 'rgba(255,255,255,0.5)'});
+	$('.demo1').hDialog({title: 'ShopNC—产品资料自助申请通道 ', width: 640, height: 500, boxBg: '#FAFAFA', modalBg: 'rgba(255,255,255,0.5)', resetForm:false, beforeShow:function(){
+		$('img[name="applyimage"]').attr('src', 'index.php-act=seccode&op=makecode&nchash=8cc597fc.htm'/*tpa=http://www.shopnc.net/index.php?act=seccode&op=makecode&nchash=8cc597fc*/);
+	}});
+		
+	//提交并验证表单
+	var $el = $('.dialog1');
+	$('.submitBtn').click(function() {
+		var EmailReg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/; //邮件正则
+		var PhoneReg = /^(1)[0-9]{10}$/ ; //手机正则
+		var $name = $('#apply_name');
+		var $qq = $('#apply_qq');
+		var $email = $('#apply_email'); 
+		var $phone = $('#apply_phone');
+		if($name.val() == ''){
+			$.tooltip('姓名还没填呢...'); $name.focus();
+		}else if($qq.val() == ''){
+			$.tooltip('QQ还没填呢...'); $qq.focus();
+		}else if($phone.val() == ''){
+			$.tooltip('手机还没填呢...'); $phone.focus();
+		}else if(!PhoneReg.test($phone.val())){
+			$.tooltip('手机格式错咯...'); $phone.focus();
+		}else if($email.val() == ''){
+			$.tooltip('邮箱还没填呢...'); $email.focus();
+		}else if(!EmailReg.test($email.val())){
+			$.tooltip('邮箱格式错咯...'); $email.focus();
+		}else{
+            $.post('index.php-act=index&op=save_apply.htm'/*tpa=http://www.shopnc.net/index.php?act=index&op=save_apply*/, $("#apply_form").serialize(), function(date){
+                $('#for-a').click();
+                date = $.parseJSON(date);
+                if (date.done) {
+        			$.tooltip('提交成功，2秒后自动关闭',2000,true);
+        			setTimeout(function(){
+                        $('.gt_refresh_button').each(function(){
+                            $(this)[0].click();
+                        });
+        				$el.hDialog('close',{box:'#HBox'}); 
+        			},2000);
+                } else {
+                    document.consult_form.reset();
+                    $.tooltip(date.msg);
+                }
+            });
+		}
+	});
+});
+</script> 
+<script type="text/javascript">
+    $(function(){
+        var timer=null;
+        var oLi = $('.top-wrap').find('li');
+        oLi.eq(1).mouseout(function() {
+            timer=setTimeout(function(){
+                $('.sub').stop(true, true).slideUp(400);
+                $('.nav-arrow i').css('transform','rotate(0)');
+            },400)
+        }).mouseover(function() {
+            clearTimeout(timer)
+            $('.sub').stop(true, true).slideDown(400);
+            $('.nav-arrow i').css('transform','rotate(180deg)');
+        });
+        //$('.sub').mouseout(function() {
+//            var $this=$(this);
+//            timer=setTimeout(function(){
+//                $this.stop(true, true).slideUp(400);
+//                $('.nav-arrow i').css('transform','rotate(0)');
+//            },200)
+//        }).mouseover(function(event) {
+//            clearTimeout(timer)
+//            $(this).stop(true, true).slideDown(400);
+//            $('.nav-arrow i').css('transform','rotate(180deg)');
+//        });
+    }());
+</script> 
+<script type="text/javascript">
+$(document).ready( function() {
+		var $topnav = $("#topnav") ; 
+		$(window).scroll(function() {
+			var scrollTop = $(window).scrollTop() , stickyTop = 200 
+			if (scrollTop > stickyTop) { 
+						$topnav.addClass('fxd');
+					} else {
+						$topnav.removeClass('fxd'); 
+					}   
+		});
+		$(window).trigger("scroll");
+			
+});
+
+</script>
+</body>
+</html>

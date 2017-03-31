@@ -1,0 +1,87 @@
+<block name="content">
+<link href="__STATIC__/css/style.css"  rel="stylesheet">
+<style>
+.product-content{ margin:20px auto 60px}
+.product-content ul li p{ text-align:center}
+</style>
+<div class="about-top-banner top-banner" style="background:url(__STATIC__/images/solution-banner.jpg) center no-repeat; height:354px;"></div>
+<div class="middle">
+<h1 style="color:#000; font-size:36px; text-align:center; padding:60px 0px 16px;">宣汉7yun为您提供专业的电商解决方案</h1>
+<h2 style="color:#666; font-size:14px; text-align:center; padding:0px">专业的服务，高效的方案</h2>
+</div>
+<div class="product-content">
+       <ul>
+        <li class="p1"> <a href="solution-solution_department.html" >
+          <img src="__STATIC__/images/solution/list-01.jpg"  width="220" height="220" alt="综合百货行业" style="padding:30px 40px"/>
+          </a>
+          <dl>
+            <dt>综合百货行业</dt>
+            <dd>
+              <p>传统商超百货行业通过电商系统搭建快捷、便利的购物平台</p>
+              <!--<a href="solution-solution_department.html" >查看详情<i class="fa fa-caret-right"></i></a>--></dd>
+          </dl>
+        </li>
+		<li class="p1"> <a href="solution.html" >
+          <img src="__STATIC__/images/solution/list-05.jpg"  width="220" height="220" alt="汽车行业" style="padding:30px 40px"/>
+          </a>
+          <dl>
+            <dt>生鲜行业</dt>
+            <dd>
+              <p>无须担心加班等原因耽误购买食材，极速轻松“买菜体验” 生鲜方案</p>
+              <!--<a href="solution-solution_department.html" >查看详情<i class="fa fa-caret-right"></i></a>--></dd>
+          </dl>
+        </li>
+              <li class="p2"> <a href="solution-solution_crossborder2.html" >
+          <img src="__STATIC__/images/solution/list-06.jpg"  width="220" height="220" alt="母婴行业" style="padding:30px 40px"/>
+          </a>
+          <dl>
+            <dt>母婴行业</dt>
+            <dd>
+              <p>全网平台搭建，多触点连接用户，打通母婴市场全渠道的方案</p>
+              <!--<a href="solution-solution_crossborder2.html" >查看详情<i class="fa fa-caret-right"></i></a>--></dd>
+          </dl>
+        </li>
+		<li class="p3"> <a href="solution-solution_crossborder5.html" >
+          <img src="__STATIC__/images/solution/list-07.jpg"  width="220" height="220" alt="医药行业" style="padding:30px 40px"/>
+          </a>
+          <dl>
+            <dt>数码行业</dt>
+            <dd>
+              <p>随时随地享受多点位购物体验，让智能掌握在一掌之中。 电子产品方案</p>
+             <!-- <a href="solution-solution_crossborder5.html" >查看详情<i class="fa fa-caret-right"></i></a>--></dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+
+
+<include file="im"/>
+
+
+<script src="__STATIC__/js/jquery.carousel.js" ></script> 
+<script src="__STATIC__/js/lightbox.min.js" ></script> 
+<script src="__STATIC__/js/jquery.tabslet.js" ></script> 
+<script type="text/javascript">
+$(function(){
+	//页内导航条位置
+	$('#nav').onePageNav({
+		filter: ':not(.exception)'
+	});
+	//滚动固定分类导航条
+    $(".pinned").pin({
+    containerSelector: ".main-layout"
+    });
+	//模板类型切换
+	$('.ui-tabs').tabslet({
+		animation: true
+	});
+});
+
+function freshVerify() {
+  $('#codeimage').attr("src", $('#codeimage').attr("src").split("?")[0] + "?" + Math.random());
+}
+</script>
+</block>
+<block name="js">
+
+</block>

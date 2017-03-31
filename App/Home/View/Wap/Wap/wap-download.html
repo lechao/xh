@@ -1,0 +1,86 @@
+<block name="content">
+<script type="text/javascript">
+$(function (){
+  $(".nav-tab li").click(function (){
+      var tabLiArr = $(this).parent().find("li");
+      var tabShowArr = $(this).parents(".tabbar").nextAll(".child-tab-show");
+      var index = $.inArray(this,tabLiArr);
+      if($(tabShowArr).eq(index)){
+        $(tabLiArr).removeClass("current").eq(index).addClass("current");
+        $(tabShowArr).addClass("hide").eq(index).removeClass("hide");
+      }
+  })
+  
+})
+</script>
+<style>
+.nav-tab {
+  height: 70px;
+}
+.nav-tab ul { display:block;
+}
+.nav-tab ul li {
+  float: left; width:50%;
+}
+.nav-tab ul li a {
+  color: #000;
+  padding: 10px 20px;
+  background: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+  float: left;
+  text-decoration: none;
+  height: 50px; line-height:50px;
+}
+.nav-tab ul li.current a {
+  color: #fff;
+  padding: 10px 20px;
+  background:#3b9de6;
+  background-image: none;
+  height: 50px; line-height:50px;
+}
+.hide {
+  display: none !important;
+}
+</style>
+<div id="app-download">
+  <div class="banner-bg">
+    <h2>电商系统移动应用</h2>
+    <h4>WAP版手机商城</h4>
+  </div>
+  <div class="app-con-tit">
+    <p class="banner-info">
+
+Wap版手机商城，HTML5开发，无需APP安装，使用手机浏览器直接访问商城系统页面，WAP版手机商城可支持任意移动终端。
+</p>
+  </div>
+  <div class="app-con">
+    <div class="nav-tab tabbar">
+      <ul>
+        <li class="current"><a href="javascript:void(0)">ShopNC B2B2C</a></li>
+        <li><a href="javascript:void(0)">Java多用户商城系统</a></li>
+      </ul>
+    </div>
+    
+     <span class="qcode child-tab-show"><a href="javascript:if(confirm('http://b2b2c.shopnctest.com/dema/wap/  '))window.location='http://b2b2c.shopnctest.com/dema/wap/'"  > <img src="__WAP__/image/ShopNC_PHP_wap.png"   width="100%" height="auto" alt="ShopNC电商系统移动应用,iPhone手机客户端,扫描二维码,下载iOS移动端体验版"/></a></span>
+     <span class="qcode child-tab-show hide"><a href="javascript:if(confirm('http://java.bizpower.com/wap/  '))window.location='http://java.bizpower.com/wap/'"  ><img src="__WAP__/image/ShopNC_Java_wap.png"   width="100%" height="auto" alt="ShopNC电商系统移动应用,安卓手机客户端,扫描二维码,下载JaVa版Android移动端体验版" /></a></span>
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<!--<div class="nc-qrcode">
+
+    <div class="qrcode-con">
+    <div class="QRcode"><a href="#"><img alt="ShopNC方官网微信号码" src="__WAP__/image/shopnc_weixin.jpg"></a></div>
+    <p>长按上方官网微信二维码<br>
+       掌握最新官方系统动态</p>
+     </div>
+     </div>--> 
+<script>
+    $(".slider").yxMobileSlider({width: 640, height: 640, during: 3000});
+</script>
+</block>
