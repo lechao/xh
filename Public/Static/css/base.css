@@ -42,7 +42,7 @@ html[xmlns] .clearfix { display: block;}
 *+html .clearfix{height:1%;}
 
 time { color: #777;}
-i.fa { font-size: 14px; margin-right: 4px; vertical-align: middle;}
+i.fa {  margin-right: 4px; vertical-align: middle;}
 
 /* ==========================
  * 为旧版本浏览器格式化Html5元素
@@ -411,6 +411,10 @@ section {
     background-color: #fff;
     color: #666c75;
 }
+.bg-gray-lighter {
+    background-color: #F2F2F2;
+    color: #666c75;
+}
 .text-center {
     text-align: center;
 }
@@ -436,14 +440,22 @@ section {
 .o_overflow_hidden {
     overflow: hidden;
 }
+.mt0 {
+    margin-top: 0px !important;
+}
 .mt4 {
     margin-top: 4px !important;
 }
 .mt8 {
     margin-top: 8px !important;
 }
+
+
 .mb10 {
     margin-top: 10px !important;
+}
+.mb16 {
+    margin-bottom: 16px !important;
 }
 .mt16 {
     margin-top: 16px !important;
@@ -477,14 +489,11 @@ section {
 .mb92 {
     margin-bottom: 92px !important;
 }
+.mb128{
+    margin-bottom: 128px !important;
+}
 .display-2 {
     font-size: 5.5rem;
-}
-.mt0 {
-    margin-top: 0px !important;
-}
-.mb16 {
-    margin-bottom: 16px !important;
 }
 .fw_light {
     font-weight: 300;
@@ -502,4 +511,16 @@ body .text-gamma {
     width: 80px;
     height: 80px;
     line-height: 80px;
+}
+p{
+    font-weight: 500 !important;
+    font-size: 13px;
+}
+body .text-delta {
+    color: #5C5B80;
+}
+
+.o-icon[class*="text-"], .s_timeline ul.timeline li .timeline-content .fa[class*="text-"], .s_timeline ul.timeline li .timeline-content-double .fa[class*="text-"] {
+    border-width: 1px;
+    border-style: solid;
 }
