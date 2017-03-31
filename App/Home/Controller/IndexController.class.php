@@ -316,4 +316,9 @@ class IndexController extends Controller {
 		$verify = new \Think\Verify($config);
 		$verify -> entry(1);
 	}
+
+	public function crm() {
+	    $this -> display();
+    }
+
 }
