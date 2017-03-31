@@ -459,6 +459,9 @@ section {
 }.mb48 {
      margin-bottom: 48px !important;
  }
+.mt48 {
+    margin-top: 48px !important;
+}
 .mb96 {
     margin-bottom: 96px !important;
 }
@@ -466,7 +469,7 @@ section {
     margin-bottom: 64px !important;
 }
 .mt64{
-    margin-top: 64px;
+    margin-top: 64px !important;
 }
 .mt92 {
     margin-top: 92px !important;
