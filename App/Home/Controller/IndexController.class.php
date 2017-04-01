@@ -337,4 +337,25 @@ class IndexController extends Controller {
     public function purchase() {
         $this -> display();
     }
+
+    public function consult($data){
+        $username = $data['username'];
+        $qq = $data['qq'];
+        $phone = $data['phone'];
+        $content = $data['content'];
+        $update_time = time();
+        $create_time = time();
+
+        $message = D('message');
+        $Data['created_at'] = $create_time;
+        $Data['updated_at'] = $update_time;
+        $Data['name'] = $username;
+        $Data['phone'] = $phone;
+        $Data['qq'] = $qq;
+        $Data['content'] = $content;
+
+        $message->add($Data);
+
+    }
+
 }

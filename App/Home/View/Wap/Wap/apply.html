@@ -64,7 +64,7 @@
 
             <div class="form-group">
                 <div>
-                    <input class="btn btn-default btn-primary col-xs-12" type="submit" value="提交">
+                    <input class="btn btn-default btn-primary col-xs-12" type="submit" value="提交" onclick="javascript:alert('提交成功')">
                 </div>
             </div>
         </form>
@@ -80,10 +80,10 @@
 <script>
     $().ready(function () {
         //获取站点URL
-        var m = /^(https?:\/\/.+)\/wap/i.exec(location.href);
-        if (m && m.length > 1) {
-            var SiteUrl = m[1] + '/';
-        }
+//        var m = /^(https?:\/\/.+)\/wap/i.exec(location.href);
+//        if (m && m.length > 1) {
+//            var SiteUrl = m[1] + '/';
+//        }
         $('#form-apply').submit(function(){
 
         });
@@ -162,7 +162,8 @@
                 var email = $('#email').val();
                 $.ajax({
                     type:'POST',
-                    url:SiteUrl + 'index.php?act=wap_api&op=save_consult',
+//                    url:SiteUrl + 'index.php?act=wap_api&op=save_consult',
+                    url:'/xh/index.php/Index/consult',
                     data:{
                         username:username,
                         qq:qq,
@@ -189,8 +190,9 @@
                 $('#form-apply').submit();
                 return false;
             }else{
-                ajaxurl = SiteUrl + 'index.php?act=experience&op=get_captcha';
-                ajaxurl += '&phone='+$('#phone').val();
+//                ajaxurl = SiteUrl + 'index.php?act=experience&op=get_captcha';
+                ajaxurl = 'localhost/xh/index.php/Index/consult';
+//                ajaxurl += '&phone='+$('#phone').val();
                 $.ajax({
                     type: "GET",
                     url: ajaxurl,
