@@ -7,7 +7,7 @@
          
     </div>
     <div class="heading">
-        <h2>亲爱的用户，欢迎您光临宣汉7yun</h2>
+        <h2>亲爱的用户，欢迎您光临柚伴信息</h2>
         <span>请您填写以下信息，我们会及时给您提供详细资料和解答。</span>
     </div>
 
@@ -45,16 +45,16 @@
                 <div class="col-xs-8" style="padding-left:0px !important;">
                     <input type="text" class="form-control" id="phone" name="phone" placeholder="请输入手机号码">
                 </div>
-                 <a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%; padding:8px 12px; background:#fb3f00; border:none" id="sms_captcha1">获取验证码</a>
-                <a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%;font-size:18px !important; line-height:22px !important; padding:8px 12px; background:#fb3f00; border:none;display:none;" id="sms_captcha2">等待<em>59</em>秒后重新<br>获取验证码</a>
+                 <!--<a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%; padding:8px 12px; background:#fb3f00; border:none" id="sms_captcha1">获取验证码</a>-->
+                <!--<a href="javascript:void(0);" class="btn btn-primary col-xs-2" style="margin-left:0px; width:33%;font-size:18px !important; line-height:22px !important; padding:8px 12px; background:#fb3f00; border:none;display:none;" id="sms_captcha2">等待<em>59</em>秒后重新<br>获取验证码</a>-->
             </div>
 
-            <div class="form-group">
-                <label for="identifying_code" class="control-label"><span class="red">*</span>验证码</label>
-                <div>
-                    <input type="text" class="form-control" id="identifying_code" name="identifying_code" placeholder="请输入手机短信验证码">
-                </div>
-            </div>
+            <!--<div class="form-group">-->
+                <!--<label for="identifying_code" class="control-label"><span class="red">*</span>验证码</label>-->
+                <!--<div>-->
+                    <!--<input type="text" class="form-control" id="identifying_code" name="identifying_code" placeholder="请输入手机短信验证码">-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="form-group">
                 <label for="content" class="control-label"><span class="red">*</span>内容</label>
                 <div>
@@ -109,22 +109,22 @@
                     number : true,
 
                 },
-                identifying_code: {
-                    required : true,
-                    remote :{
-                        url :SiteUrl + 'index.php?act=experience&op=check_captcha&column=ok',
-                        type:'get',
-                        data:{
-                            sms_captcha: function(){
-                                return $('#identifying_code').val();
-                            },
-                            phone:function(){
-                                return $('#phone').val();
-                            }
-                        }
-                    }
-
-                },
+//                identifying_code: {
+//                    required : true,
+//                    remote :{
+//                        url :SiteUrl + 'index.php?act=experience&op=check_captcha&column=ok',
+//                        type:'get',
+//                        data:{
+//                            sms_captcha: function(){
+//                                return $('#identifying_code').val();
+//                            },
+//                            phone:function(){
+//                                return $('#phone').val();
+//                            }
+//                        }
+//                    }
+//
+//                },
                 content: "required"
             },
             messages: {
@@ -140,11 +140,11 @@
                     required: "请输入邮箱地址",
                     email: "请输入正确的邮箱地址"
                 },
-                identifying_code: {
-                    required: "请输入验证码",
-                    remote:"验证码错误"
-
-                },
+//                identifying_code: {
+//                    required: "请输入验证码",
+//                    remote:"验证码错误"
+//
+//                },
                 phone: {
                     required: "请输入手机号",
                     rangelength: '请输入11位手机号',
@@ -158,7 +158,7 @@
                 var phone = $('#phone').val();
                 var sign = $('#sign').val();
                 var content = $('#content').val();
-                var identifying_code = $('#identifying_code').val();
+//                var identifying_code = $('#identifying_code').val();
                 var email = $('#email').val();
                 $.ajax({
                     type:'POST',
@@ -169,7 +169,7 @@
                         phone:phone,
                         sign:sign,
                         content:content,
-                        identifying_code: identifying_code,
+//                        identifying_code: identifying_code,
                         email:email
                     },
                     dataType:'json',
