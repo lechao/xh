@@ -43,7 +43,7 @@
                 float: 'left',
                 display: 'inline'
             });
-            $("img", oLi).css({
+            $("a", oLi).css({
                 width: '100%',
                 height: '100%'
             });
