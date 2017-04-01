@@ -22,6 +22,8 @@ class WapController extends Controller {
 	}
 
     public function index(){
+        $banner = M('ad')->where(array('ad_code'=>'INDEX_BANNER'))->select();
+        $this->assign('banner',$banner);
         $this->display();
     }
 
