@@ -489,7 +489,7 @@ line-height: 32px; text-align:left; margin-top:10px;}
 .cbes-list05 span.pro-des{ margin-left:130px;display:block;color:#666666;font-size: 20px;line-height: 32px; text-align:left;margin-top:10px;}
 
 /*footer*/
-.footer{background-color:#202020;height:auto;padding-top:50px;text-align:center;color:#727272;overflow:hidden;}
+.footer{background-color:#202020;height:auto;padding-top:50px;text-align:center;color:#727272;overflow:hidden;padding-bottom: 120px}
 .footer .line{height:1px;background-color:#4d4d4d;margin-left:50px;margin-right:50px;}
 .footer .tit{background-color:#202020;color:#fff;font-size:30px;line-height:40px;margin-top:-20px;width:160px;display:inline-block;margin-bottom:30px; font-weight:bolder;}
 .footer li{width:210px;float:left;height:75px;}
