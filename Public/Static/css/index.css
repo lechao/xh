@@ -115,7 +115,20 @@ width: 25%; *zoom:1/*IE7*/;
 .index-model ul { font-size: 0; *word-spacing:-1px/*IE6、7*/; position:absolute; top:90px; width:1200px;}
 .index-model li { font-size: 12px; vertical-align: top; letter-spacing: normal; display: inline-block; *display: inline/*IE7*/;width: 20%; *zoom:1/*IE7*/;padding: 0px 20px;}
 .index-model li a.box{ width:200px; height:200px; display:block; margin:auto; position:relative;border-radius: 100px;}
-.index-model li a span{font-size:16px;line-height: 30px; color: #272636; height: 30px; position:absolute; font-weight:bolder; bottom:85px;left:80px;}
+.index-model li a span{    font-size: 16px;
+ line-height: 120px;
+ color: #ffffff;
+ position: absolute;
+ font-weight: bolder;
+ bottom: 40px;
+ left: 40px;
+ width: 120px;
+ background-color: rgba(0,0,0,.5);
+ height: 120px;
+ border-radius: 60px;
+ vertical-align: middle;
+ display: block;
+ text-align: center;}
 .index-model li a.box{}
 .index-model li .pic {background: url("../images/circle-icon.png"/*tpa=http://www.shopnc.net/images/circle-icon.png*/) no-repeat 0 0;width:50px; height:50px; position:absolute; top:80px; left:90px;}
 .index-model dl { width: 200px; text-align: center; margin:10px auto; }
