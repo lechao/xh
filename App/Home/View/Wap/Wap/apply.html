@@ -64,7 +64,7 @@
 
             <div class="form-group">
                 <div>
-                    <input class="btn btn-default btn-primary col-xs-12" type="submit" value="提交" onclick="javascript:alert('提交成功')">
+                    <input class="btn btn-default btn-primary col-xs-12" type="submit" value="提交" >
                 </div>
             </div>
         </form>
@@ -163,7 +163,7 @@
                 $.ajax({
                     type:'POST',
 //                    url:SiteUrl + 'index.php?act=wap_api&op=save_consult',
-                    url:'/xh/index.php/Index/consult',
+                    url:'/xh/wap.php/Wap/consult',
                     data:{
                         username:username,
                         qq:qq,

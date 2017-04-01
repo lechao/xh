@@ -27,4 +27,31 @@ class WapController extends Controller {
         $this->display();
     }
 
+    public function consult(){
+        $username = $_POST['username'];
+        $qq = $_POST['qq'];
+        $phone = $_POST['phone'];
+        $content = $_POST['content'];
+        $update_time = time();
+        $create_time = time();
+
+        $message = D('message');
+        $Data['created_at'] = $create_time;
+        $Data['updated_at'] = $update_time;
+        $Data['name'] = $username;
+        $Data['phone'] = $phone;
+        $Data['qq'] = $qq;
+        $Data['content'] = $content;
+
+        $result = $message->add($Data);
+        if($result){
+            $data = array('msg'=>"success",'done'=>true);
+            $data = json_encode($data);
+            echo $data;
+        }else{
+            $data = array('msg'=>"fault",'done'=>false);
+            $data = json_encode($data);
+            echo $data;
+        }
+    }
 }

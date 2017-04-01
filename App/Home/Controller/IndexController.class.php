@@ -339,10 +339,10 @@ class IndexController extends Controller {
     }
 
     public function consult($data){
-        $username = $data['username'];
-        $qq = $data['qq'];
-        $phone = $data['phone'];
-        $content = $data['content'];
+        $username = $_POST['username'];
+        $qq = $_POST['qq'];
+        $phone = $_POST['phone'];
+        $content = $_POST['content'];
         $update_time = time();
         $create_time = time();
 
@@ -355,6 +355,7 @@ class IndexController extends Controller {
         $Data['content'] = $content;
 
         $message->add($Data);
+
 
     }
 
