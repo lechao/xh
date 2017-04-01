@@ -18,7 +18,7 @@
         <dd><i class="fa fa-phone"></i>{$config.after_phone}</dd>
         <dd class="worktime">{$config.worktime}</dd>
       </dl>
-      <div class="QRcode"><img src="{:get_image_path($config['qrcode'])}"  alt={$config.company_name}官网微信号码"/>
+      <div class="QRcode"><img src="/{:get_image_path($config['qrcode'])}"  alt={$config.company_name}官网微信号码"/>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加客服微信<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;随时随地咨询</p>
       </div>
@@ -72,7 +72,7 @@
         <div class="weixing-show">
           <div class="weixing-txt">微信扫一扫<br>
             随时随地咨询</div>
-          <img class="weixing-ma" src="{:get_image_path($config['qrcode'])}" >
+          <img class="weixing-ma" src="/{:get_image_path($config['qrcode'])}" >
           <div class="weixing-sanjiao"></div>
           <div class="weixing-sanjiao-big"></div>
         </div>
