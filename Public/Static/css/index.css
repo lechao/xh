@@ -167,7 +167,7 @@ position: relative; }
  transform: scale(0.8);
 }
 }
-.fa-5x{font-size:8em !important;color:#99a2a8;text-align: center;}
+.fa-5x{font-size:5em !important;color:#99a2a8;text-align: center;}
 .function-content .pic {  display: block; width: 108px; height: 108px; margin: 25px auto; position: relative; z-index: 2; }
 /*.function-content .f01 .pic { background-position: 0 0; }*/
 /*.function-content .f02 .pic { background-position: -110px 0; }*/
