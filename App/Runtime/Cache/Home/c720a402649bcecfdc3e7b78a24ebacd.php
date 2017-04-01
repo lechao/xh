@@ -35,15 +35,16 @@
 <!-- Mobile Devices -->
 <meta name="msapplication-TileColor" content="#00AEEB"/>
 <!-- Windows 8 磁贴颜色 -->
-<meta name="msapplication-TileImage" content="/pc/Public/Wap/images/logo_ico.png"/>
+<meta name="msapplication-TileImage" content="/xh/Public/Wap/images/logo_ico.png"/>
 <!-- Windows 8 磁贴图标 -->
-<link rel="shortcut icon" href="/pc/Public/Wap/images/favicon.png">
+<link rel="shortcut icon" href="/xh/Public/Wap/images/favicon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-<link rel="stylesheet" href="/pc/Public/Wap/css/style.css" >
-<script type="text/javascript" src="/pc/Public/Wap/js/jquery-1.9.1.js" ></script>
-<script type="text/javascript" src="/pc/Public/Wap/js/yxMobileSlider.js" ></script>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="/xh/Public/Static/font-awesome-4.7.0/css/font-awesome.css"  rel="stylesheet">
+<link rel="stylesheet" href="/xh/Public/Wap/css/style.css" >
+<script type="text/javascript" src="/xh/Public/Wap/js/jquery-1.9.1.js" ></script>
+<script type="text/javascript" src="/xh/Public/Wap/js/yxMobileSlider.js" ></script>
 </head>
 <body>
 
@@ -52,18 +53,22 @@
   <ul class="navhead">
        <li class="menuicon">
            <label for="menustate">
-           <p class="menuanchor-open"><img src="/pc/Public/Wap/image/menu.png" alt=""></p>
+           <p class="menuanchor-open"><img src="/xh/Public/Wap/image/menu.png" alt=""></p>
            <p href="#" class="menuanchor-close">X</p>
            </label>
         </li>
-       <li class="logo"><img src="/pc/Public/Wap/image/logo.png" alt="ShopNC-logo"></li>
-       <li class="tel"><img src="/pc/Public/Wap/image/tel.png" alt="tel"></li>
+       <li class="logo"><img src="/xh/Public/Wap/image/logo.png" alt="ShopNC-logo"></li>
+       <li class="tel"><img src="/xh/Public/Wap/image/tel.png" alt="tel"></li>
    </ul>
    <ul class="list">
-       <li class="item_menu"><a class="item_link" href="<?php echo U('B2B2C');?>">B2B2C多用户商城系统</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('crm');?>">CRM</a></li>
   
-       <li class="item_menu"><a class="item_link" href="<?php echo U('APP');?>">移动应用</a></li>
-       <li class="item_menu"><a class="item_link" href="<?php echo U('solutions');?>">电商解决方案</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('sales');?>">销售模块</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('APP');?>">仓库模块</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('APP');?>">销售模块</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('APP');?>">采购模块</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('APP');?>">财务模块</a></li>
+       <li class="item_menu"><a class="item_link" href="<?php echo U('solutions');?>">行业案例</a></li>
        <li class="item_menu"><a class="item_link" href="<?php echo U('about');?>">关于我们</a></li>
    </ul>
 </nav>
@@ -72,11 +77,7 @@
 <div class="banner">
   <div style="width: 640px; height: 640px; position: relative; overflow: hidden; margin: 0px auto;" class="slider">
     <ul style="position: absolute; left: -2560px; width: 3840px;">
-      <li><a href="Bizpower.html" ><img src="/pc/Public/Wap/image/nc_banner_1.jpg"  alt="ShopNC" alt=""></a></li>
-      <li><a href="distribution.html" ><img src="/pc/Public/Wap/image/nc_banner_2.jpg"  alt="ShopNC" alt=""></a></li>
-      <li><a href="live.html" ><img src="/pc/Public/Wap/image/nc_banner_3.jpg"  alt="ShopNC" alt=""></a></li>
-      <li><a href="live.html" ><img src="/pc/Public/Wap/image/nc_banner_4.jpg"  alt="ShopNC" alt=""></a></li>
-      <li><a href="solutions.html" ><img src="/pc/Public/Wap/image/nc_banner_5.jpg"  alt="ShopNC" alt=""></a></li>
+      <?php if(is_array($banner)): $i = 0; $__LIST__ = $banner;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li style="background:url(/<?php echo get_image_path($vo['picture']);?>) bottom no-repeat; position:relative;"></li><?php endforeach; endif; else: echo "" ;endif; ?>
     </ul>
     <div style="min-height: 0px; position: absolute; bottom: 0px; width: 640px; height: 64px; z-index: 2;"class="focus">
     <div>
@@ -116,11 +117,11 @@
 
 <div class="footer" id="footer"> 
 <div class="line"></div>
-    <div class="tit">宣汉7yun</div>
+    <div class="tit">柚伴信息</div>
     <ul>
-        <li><a href=""><img src="/pc/Public/Wap/image/weixin.png" alt=""></a></li>
-        <li><a href=""><img src="/pc/Public/Wap/image/txwb.png" alt=""></a></li>
-        <li><a href=""><img src="/pc/Public/Wap/image/xlwb.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/weixin.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/txwb.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/xlwb.png" alt=""></a></li>
     </ul>
     <div class="text clear">
         <p>售前咨询热线:<?php echo ($config["pre_phone"]); ?></p>

@@ -35,15 +35,15 @@
 <!-- Mobile Devices -->
 <meta name="msapplication-TileColor" content="#00AEEB"/>
 <!-- Windows 8 磁贴颜色 -->
-<meta name="msapplication-TileImage" content="/pc/Public/Wap/images/logo_ico.png"/>
+<meta name="msapplication-TileImage" content="/xh/Public/Wap/images/logo_ico.png"/>
 <!-- Windows 8 磁贴图标 -->
-<link rel="shortcut icon" href="/pc/Public/Wap/images/favicon.png">
+<link rel="shortcut icon" href="/xh/Public/Wap/images/favicon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<link rel="stylesheet" href="/pc/Public/Wap/css/style.css" >
-<script type="text/javascript" src="/pc/Public/Wap/js/jquery-1.9.1.js" ></script>
-<script type="text/javascript" src="/pc/Public/Wap/js/yxMobileSlider.js" ></script>
+<link rel="stylesheet" href="/xh/Public/Wap/css/style.css" >
+<script type="text/javascript" src="/xh/Public/Wap/js/jquery-1.9.1.js" ></script>
+<script type="text/javascript" src="/xh/Public/Wap/js/yxMobileSlider.js" ></script>
 </head>
 <body>
 
@@ -52,12 +52,12 @@
   <ul class="navhead">
        <li class="menuicon">
            <label for="menustate">
-           <p class="menuanchor-open"><img src="/pc/Public/Wap/image/menu.png" alt=""></p>
+           <p class="menuanchor-open"><img src="/xh/Public/Wap/image/menu.png" alt=""></p>
            <p href="#" class="menuanchor-close">X</p>
            </label>
         </li>
-       <li class="logo"><img src="/pc/Public/Wap/image/logo.png" alt="ShopNC-logo"></li>
-       <li class="tel"><img src="/pc/Public/Wap/image/tel.png" alt="tel"></li>
+       <li class="logo"><img src="/xh/Public/Wap/image/logo.png" alt="ShopNC-logo"></li>
+       <li class="tel"><img src="/xh/Public/Wap/image/tel.png" alt="tel"></li>
    </ul>
    <ul class="list">
        <li class="item_menu"><a class="item_link" href="<?php echo U('B2B2C');?>">B2B2C多用户商城系统</a></li>
@@ -90,31 +90,31 @@
                         <h2>B2B2C 商城系统</h2>
                         <p>流程功能最完善的电商平台系统。</p>
                     </div>
-                    <img width="430" height="500" src="/pc/Public/Wap/image/ncproduct1.jpg" ></div>
+                    <img width="430" height="500" src="/xh/Public/Wap/image/ncproduct1.jpg" ></div>
                 <div data-url="#" class="swiper-slide">
                     <div class="intro">
                         <h2>Bizpower商城系统</h2>
                         <p>java技术，安全、稳定、结构合理、高并发性、强扩展性、集群部署</p>
                     </div>
-                    <img width="430" height="500" src="/pc/Public/Wap/image/ncproduct2.jpg" ></div>
+                    <img width="430" height="500" src="/xh/Public/Wap/image/ncproduct2.jpg" ></div>
                 <div data-url="#" class="swiper-slide">
                     <div class="intro">
                         <h2>移动应用 APP</h2>
                         <p> 集购物、视频、直播为一体的全生态移动商城。</p>
                     </div>
-                    <img width="430" height="500" src="/pc/Public/Wap/image/ncproduct3.jpg" ></div>
+                    <img width="430" height="500" src="/xh/Public/Wap/image/ncproduct3.jpg" ></div>
                 <div data-url="#" class="swiper-slide">
                     <div class="intro">
                         <h2>分销系统</h2>
                         <p>多终端、多平台、全民分销系统。</p>
                     </div>
-                    <img width="430" height="500" src="/pc/Public/Wap/image/ncproduct4.jpg" ></div>
+                    <img width="430" height="500" src="/xh/Public/Wap/image/ncproduct4.jpg" ></div>
                 <div data-url="#" class="last swiper-slide swiper-slide-active">
                     <div class="intro">
                         <h2>微信商城</h2>
                         <p>H5开发全面与微信打通，包含多种微信营销功能的商城系统。</p>
                     </div>
-                    <img width="430" height="500" src="/pc/Public/Wap/image/ncproduct5.jpg" ></div>
+                    <img width="430" height="500" src="/xh/Public/Wap/image/ncproduct5.jpg" ></div>
             </div>
             <div class="prev5 hprev"></div>
             <div class="next5 hnext"></div>
@@ -182,11 +182,11 @@
 
 <div class="footer" id="footer"> 
 <div class="line"></div>
-    <div class="tit">宣汉7yun</div>
+    <div class="tit">柚伴信息</div>
     <ul>
-        <li><a href=""><img src="/pc/Public/Wap/image/weixin.png" alt=""></a></li>
-        <li><a href=""><img src="/pc/Public/Wap/image/txwb.png" alt=""></a></li>
-        <li><a href=""><img src="/pc/Public/Wap/image/xlwb.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/weixin.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/txwb.png" alt=""></a></li>
+        <li><a href=""><img src="/xh/Public/Wap/image/xlwb.png" alt=""></a></li>
     </ul>
     <div class="text clear">
         <p>售前咨询热线:<?php echo ($config["pre_phone"]); ?></p>

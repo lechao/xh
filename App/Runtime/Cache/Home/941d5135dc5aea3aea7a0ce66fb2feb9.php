@@ -11,10 +11,12 @@
 <meta name="description" content="<?php echo C('SITE_DESCRIPTION');?>" />
 <link rel="shortcut icon" href="images/logo-ico.png">
 <title><?php echo C('SITE_TITLE');?></title>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="/xh/Public/Static/css/base.css"  rel="stylesheet">
 <link href="/xh/Public/Static/css/home.css"  rel="stylesheet">
 <link href="/xh/Public/Static/css/animate.css"  rel="stylesheet">
-<link href="/xh/Public/Static/css/font/css/font-awesome.css"  rel="stylesheet">
+<!--<link href="/xh/Public/Static/css/font/css/font-awesome.css"  rel="stylesheet">-->
+<link href="/xh/Public/Static/font-awesome-4.7.0/css/font-awesome.css"  rel="stylesheet">
 <script src="/xh/Public/Static/js/html5.js" ></script>
 <script src="/xh/Public/Static/js/jquery.js" ></script>
 <script src="/xh/Public/Static/js/shopnc.js" ></script>
@@ -33,7 +35,7 @@
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
         //window.location.href='http://www.7yunshop.com/pc/wap.php';
     }else{
-    	window.location.href='http://www.7yunshop.com/pc/wap.php';
+    	window.location.href='http://www.youbaninfo.com/wap.php';
     }
 }
 browserRedirect();
@@ -44,28 +46,38 @@ browserRedirect();
   <div class="top-box">
     <div class="left">售前电话：<b><?php echo ($config["pre_phone"]); ?></b></div>
     <div class="right">
-            <span class="mr30"><a href="<?php echo U('login');?>"  style="color:#ddddde" title="会员登录" target="_blank">会员登录</a> | <a href="<?php echo U('login-register');?>"  style="color:#ddddde" title="注册" target="_blank">注册</a></span>
+            <!--<span class="mr30"><a href="<?php echo U('login');?>"  style="color:#ddddde" title="会员登录" target="_blank">会员登录</a> | <a href="<?php echo U('login-register');?>"  style="color:#ddddde" title="注册" target="_blank">注册</a></span>-->
+            <span class="mr30"><a href="http://yanshi.youbaninfo.com/web/login"  style="color:#ddddde" title="我要试用" target="_blank">我要试用</a></span>
           </div>
   </div>
 </div>
 <div class="topnav" id="topnav"> 
   <!--<div class="clear"></div>-->
   <div class="top-wrap">
-    <div class="top-logo"><a href="<?php echo U('index');?>"  title="ShopNC" ><img src="<?php echo get_image_path($config['logo']);?>"  width="auto" height="100%" alt="<?php echo ($config["company_name"]); ?>"/></a></div>
+    <div class="top-logo"><a href="<?php echo U('index');?>"  title="ShopNC" ><img src="/<?php echo get_image_path($config['logo']);?>"  width="auto" height="100%" alt="<?php echo ($config["company_name"]); ?>"/></a></div>
     <ul class="top-nav primary">
       <li class="nav-list"><a href="<?php echo U('index');?>"  class="nav-list-link" title="首页">首页</a></li>
-      <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品">产品<i></i></a>
+      <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品模块">产品模块<i></i></a>
         <div class="clear"></div>
         <div class="sub">
           <div class="little-up"></div>
-          <div class="cont"> <a href="<?php echo U('b2b2c');?>"  title="B2B2C多用户商城系统">
+          <div class="cont">
             <dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>B2B2C多用户商城系统</dt>
-              <dd>PHP语言开发，功能强大，易用性强，电商创业最佳选择。</dd>
+              <dt><a href="<?php echo U('crm');?>"  title="CRM">CRM</a></dt>
+              <dd> <a href="<?php echo U('crm');?>"  title="CRM">真实客户为中心的CRM</a></dd>
             </dl>
 			<dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>微商城三级分销系统</dt>
-			  <dd>三级分销引爆流量。</dd>
+              <dt><a href="<?php echo U('sales');?>"  title="销售模块">销售模块</a></dt>
+			  <dd><a href="<?php echo U('sales');?>"  title="销售模块">业务流程一体及促进订单成交 </a></dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt><a href="<?php echo U('warehouse');?>" title="仓库模块">仓库模块</a></dt>
+			  <dd><a href="<?php echo U('warehouse');?>" title="仓库模块">现代化在线仓库，实现效率最大化</a></dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt><a href="<?php echo U('purchase');?>"  title="采购模块">采购模块</dt>
+			  <dd><a href="<?php echo U('purchase');?>"  title="采购模块">改善您的供业链和库存绩效</dd>
+            </dl><dl style="border-bottom: dotted 1px #CCC;" >
+              <dt><a href="<?php echo U('account');?>"  title="财务模块">财务模块</dt>
+			  <dd><a href="<?php echo U('account');?>"  title="财务模块">用更少的时间，做更多的事情</dd>
             </dl>
             </a>
             <!-- <a href="mall-java.html"  title="Java多用户商城系统">
@@ -77,11 +89,11 @@ browserRedirect();
           </div>
         </div>
       </li>
-      <li class="nav-list"><a href="<?php echo U('solution-list');?>"  class="nav-list-link" title="解决方案">解决方案</a>
+      <li class="nav-list"><a href="<?php echo U('solution-list');?>"  class="nav-list-link" title="行业案例">行业案例</a>
         <div class="clear"></div>
       </li>
-      <li class="nav-list"><a href="<?php echo U('case');?>"  class="nav-list-link" title="成功案例">成功案例</a></li>
-      <li class="nav-list"><a href="<?php echo U('cooperation');?>"  class="nav-list-link" title="合作代理">合作伙伴</a></li>
+      <!--<li class="nav-list"><a href="<?php echo U('case');?>"  class="nav-list-link" title="成功案例">成功案例</a></li>-->
+      <!--<li class="nav-list"><a href="<?php echo U('cooperation');?>"  class="nav-list-link" title="合作代理">合作伙伴</a></li>-->
       <li class="nav-list"><a href="<?php echo U('aboutus');?>"  class="nav-list-link" title="关于我们">关于我们</a></li>
     </ul>
   </div>

@@ -11,6 +11,7 @@
 <meta name="description" content="<?php echo C('SITE_DESCRIPTION');?>" />
 <link rel="shortcut icon" href="images/logo-ico.png">
 <title><?php echo C('SITE_TITLE');?></title>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="/xh/Public/Static/css/base.css"  rel="stylesheet">
 <link href="/xh/Public/Static/css/home.css"  rel="stylesheet">
 <link href="/xh/Public/Static/css/animate.css"  rel="stylesheet">
@@ -53,7 +54,7 @@ browserRedirect();
 <div class="topnav" id="topnav"> 
   <!--<div class="clear"></div>-->
   <div class="top-wrap">
-    <div class="top-logo"><a href="<?php echo U('index');?>"  title="ShopNC" ><img src="<?php echo get_image_path($config['logo']);?>"  width="auto" height="100%" alt="<?php echo ($config["company_name"]); ?>"/></a></div>
+    <div class="top-logo"><a href="<?php echo U('index');?>"  title="ShopNC" ><img src="/<?php echo get_image_path($config['logo']);?>"  width="auto" height="100%" alt="<?php echo ($config["company_name"]); ?>"/></a></div>
     <ul class="top-nav primary">
       <li class="nav-list"><a href="<?php echo U('index');?>"  class="nav-list-link" title="首页">首页</a></li>
       <li class="nav-list nav-l" style="position:relative;"><a href="javascript:void(0);" class="nav-list-link nav-arrow" title="产品模块">产品模块<i></i></a>
@@ -63,20 +64,20 @@ browserRedirect();
           <div class="cont">
             <dl style="border-bottom: dotted 1px #CCC;" >
               <dt><a href="<?php echo U('crm');?>"  title="CRM">CRM</a></dt>
-              <dd> <a href="<?php echo U('crm');?>"  title="CRM">PHP语言开发，功能强大，易用性强，电商创业最佳选择。 </a></dd>
+              <dd> <a href="<?php echo U('crm');?>"  title="CRM">真实客户为中心的CRM</a></dd>
             </dl>
 			<dl style="border-bottom: dotted 1px #CCC;" >
               <dt><a href="<?php echo U('sales');?>"  title="销售模块">销售模块</a></dt>
-			  <dd><a href="<?php echo U('sales');?>"  title="销售模块">三级分销引爆流量。</a></dd>
+			  <dd><a href="<?php echo U('sales');?>"  title="销售模块">业务流程一体及促进订单成交 </a></dd>
             </dl><dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>仓库模块</dt>
-			  <dd>三级分销引爆流量。</dd>
+              <dt><a href="<?php echo U('warehouse');?>" title="仓库模块">仓库模块</a></dt>
+			  <dd><a href="<?php echo U('warehouse');?>" title="仓库模块">现代化在线仓库，实现效率最大化</a></dd>
             </dl><dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>采购模块</dt>
-			  <dd>三级分销引爆流量。</dd>
+              <dt><a href="<?php echo U('purchase');?>"  title="采购模块">采购模块</dt>
+			  <dd><a href="<?php echo U('purchase');?>"  title="采购模块">改善您的供业链和库存绩效</dd>
             </dl><dl style="border-bottom: dotted 1px #CCC;" >
-              <dt>财务模块</dt>
-			  <dd>三级分销引爆流量。</dd>
+              <dt><a href="<?php echo U('account');?>"  title="财务模块">财务模块</dt>
+			  <dd><a href="<?php echo U('account');?>"  title="财务模块">用更少的时间，做更多的事情</dd>
             </dl>
             </a>
             <!-- <a href="mall-java.html"  title="Java多用户商城系统">
@@ -113,7 +114,7 @@ browserRedirect();
 </script>
 <div id="banner" class="flexslider clear">
   <ul class="slides">
-  <?php if(is_array($banner)): $i = 0; $__LIST__ = $banner;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li style="background:url(<?php echo get_image_path($vo['picture']);?>) bottom no-repeat; position:relative;">
+  <?php if(is_array($banner)): $i = 0; $__LIST__ = $banner;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li style="background:url(/<?php echo get_image_path($vo['picture']);?>) bottom no-repeat; position:relative;">
       <a href="<?php echo ($vo["url"]); ?>" style="display: block; width: 100%;height:100%;"></a>
     </li><?php endforeach; endif; else: echo "" ;endif; ?>  
   </ul>
@@ -136,7 +137,7 @@ $(function(){
 <div class="index-main">
   <div class="product-container" style="margin-bottom:40px;">
     <h2>做最好的产品</h2>
-    <h3>最专业、最权威的技术团队一心做事，为客户提供最适用的电商平台配套系统及服务</h3>
+    <h3>最专业、最权威的技术团队一心做事，为客户提供最适用的企业管理配套系统及服务</h3>
 
     <div class="product-module">
         <ul>
@@ -190,45 +191,48 @@ $(function(){
 <div class="clear"></div>
 <div class="business-model-box">
   <div class="business-model">
-    <h2>21世纪最具创新的电商团队</h2>
-    <h3>随着时代的发展，电商领域被细分为多种商业模式，宣汉网络根据不同的电商模式专注于B2B2C多端数据互通系统开发领域</h3>
+    <h2>21世纪最具创新的企业管理系统</h2>
+    <h3>随着时代的发展，电商领域被细分为多种商业模式，悟空系统根据不同的业务模式专注于企业级系统开发领域</h3>
   </div>
   <div class="index-model-box">
     <div class="index-model">
         <ul>
-        <li class="p1"> <a class="box" href="" >
-              <div class="pic pic01"></div>
-              <span style="left:75px;">B2B2C模式</span> </a>
+        <li class="p1"> <a class="box" href="" style="background-image: url('/images/CRM.jpg');">
+              <span>CRM</span> </a>
               <dl>
-                <dt>融合B2B、B2C模式，助力打通上下游渠道产业链</dt>
-                <dd> <a class="lf-a fl" href="<?php echo U('b2b2c');?>" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="../v1-6/" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
+                <dt>真实客户为中心的CRM </dt>
+                <dd> <a class="lf-a fl" href="<?php echo U('b2b2c');?>" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="http://yanshi.youbaninfo.com/web/login" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
               </dl>
             </li>
 
-            <li class="p1"> <a class="box" href="" >
-              <div class="pic pic02"></div>
-              <span>B2C模式</span> </a>
+            <li class="p1"> <a class="box" href="" style="background-image: url('/images/account.jpg');">
+              <span>财务模块</span> </a>
               <dl>
-                <dt>以垂直行业，大宗交易为基础模型的B2B商业模式</dt>
-                <dd> <a class="lf-a fl" href="" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="../b2c/" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
+                <dt>用更少的时间，做更多的事情</dt>
+                <dd> <a class="lf-a fl" href="" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="http://yanshi.youbaninfo.com/web/login" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
               </dl>
             </li>
 
-            <li class="p1"> <a class="box" href="" >
-              <div class="pic pic03"></div>
-              <span>O2O模式</span> </a>
+            <li class="p1"> <a class="box" href="" style="background-image: url('/images/purchase.jpg');">
+              <span>采购模块</span> </a>
               <dl>
-                <dt>将线下商务与互联网技术有效结合，让互联网成为线下交易的前台</dt>
-                <dd> <a class="lf-a fl" href="mall-o2o.html" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="javascript:" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
+                <dt>改善您的供业链和库存绩效</dt>
+                <dd> <a class="lf-a fl" href="mall-o2o.html" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="http://yanshi.youbaninfo.com/web/login" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
               </dl>
             </li>
 
-            <li class="p1"> <a class="box" href="" >
-              <div class="pic pic04"></div>
-              <span>  微分销</span> </a>
+            <li class="p1"> <a class="box" href="" style="background-image: url('/images/sale.jpg');">
+              <span>销售模块</span> </a>
               <dl>
-                <dt>以个人间的交易为核心的多店商城系统</dt>
-                <dd> <a class="lf-a fl" href="" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="javascript:" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
+                <dt>业务流程一体及促进订单成交</dt>
+                <dd> <a class="lf-a fl" href="" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="http://yanshi.youbaninfo.com/web/login" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
+              </dl>
+
+            <li class="p1"> <a class="box" href="" style="background-image: url('/images/stock.jpg');">
+              <span>仓库模块</span> </a>
+              <dl>
+                <dt>现代化在线仓库，实现效率最大化</dt>
+                <dd> <a class="lf-a fl" href="" >查看详情<i class="fa fa-caret-right"></i></a> <a class="lf-b fr" href="http://yanshi.youbaninfo.com/web/login" >查看测试网址<i class="fa fa-caret-right"></i></a> </dd>
               </dl>
             </li>
         </ul>
@@ -238,8 +242,8 @@ $(function(){
 </div>
 <div class="clear"></div>
 <div class="function-container">
-  <h2>服务优质    功能完善</h2>
-  <h3>宣汉网络产品始终以满足客户需求为己任，创造标准化的电商平台系统功能套件</h3>
+  <h2>功能模块</h2>
+  <h3>开源第一ERP，完整功能超乎你想象...</h3>
   <div class="function-content">
 <ul>
       <li class="f01"><a><span></span>
