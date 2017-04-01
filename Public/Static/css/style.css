@@ -134,7 +134,7 @@ border: solid 1px #EEE; overflow: hidden; }
 /*关于 banner*/
 
 .banner-about {background-color:#F5F5F5;}
-.banner-about .banner { background: url("../images/about/about_banner.png") no-repeat 0 10px; width: 1600px; height: 300px; margin: 0 auto;}
+.banner-about .banner { background: url("../images/about/about_banner.png") no-repeat 0 10px; height: 300px; margin: 0 auto;}
 
 
 /* ===================
@@ -176,7 +176,7 @@ background: rgba(0,0,0,0.05); }
 .main-layout section.even { background-color: #FAFAFA;}
 .main-layout section.even02 { background-color: #ffe9e9;}
 .main-layout section .page-location { position: absolute; z-index: 1; top: -30px; left: 0; right: 0; }
-.main-layout section div.wrap { width: 1000px; margin: 0 auto; padding: 50px 20px 40px 180px; }
+.main-layout section div.wrap { width: 1000px; margin: 0 auto; padding: 50px 20px 40px 20px; }
 .main-layout section div.wrap2 { width: 1000px; margin: 0 auto; padding: 50px 0 0 0;}
 .main-layout section.guestbook div.wrap { width: 900px; margin: 0 auto; padding: 50px 0;}
 .main-layout section .title { padding: 0 0 20px 0; }
@@ -384,7 +384,7 @@ width: 450px; padding: 25px; border-style: dashed; border-width: 1px 0 0 1px; bo
 .guestbook-form .input-txt { font-size: 14px; display: inline-block; *display: inline;
  width: 210px;  padding: 2px 9px; border: solid 1px #D9D9D9; border-radius: 3px; *zoom: 1;}
 .guestbook-form .input-textarea { font-size: 14px; width: 800px; height: 90px; padding: 4px 9px; border: solid 1px #D9D9D9; border-radius: 3px; }
-.guestbook-form .button-submit { font-size: 16px; color: #FFF; line-height: 20px; background-color: #006CD8; text-align: center; display: block; width: 100px; height: 20px; padding: 10px 0; margin-left: 60px; border-radius: 3px; }
+.guestbook-form .button-submit { font-size: 16px; color: #FFF; line-height: 20px; background-color: #006CD8; text-align: center; display: block; width: 100px; padding: 10px 0; margin-left: 60px; border-radius: 3px; }
 .guestbook-form img { display: inline-block; vertical-align: top; margin: 4px 8px 0 8px; }
 .guestbook-form .btn { font-size: 14px; color: #555; line-height: 20px; background-color: #F5F5F5; display: inline-block; padding: 6px 10px; border: solid 1px #CCC; border-radius: 5px; }
 .guestbook-form .btn:hover { text-decoration: none; background-color: #FFF; }
