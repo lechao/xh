@@ -163,7 +163,7 @@
                 $.ajax({
                     type:'POST',
 //                    url:SiteUrl + 'index.php?act=wap_api&op=save_consult',
-                    url:'/xh/wap.php/Wap/consult',
+                    url:'/wap.php/Wap/consult',
                     data:{
                         username:username,
                         qq:qq,
@@ -191,7 +191,7 @@
                 return false;
             }else{
 //                ajaxurl = SiteUrl + 'index.php?act=experience&op=get_captcha';
-                ajaxurl = 'localhost/xh/index.php/Index/consult';
+                ajaxurl = 'localhost/index.php/Index/consult';
 //                ajaxurl += '&phone='+$('#phone').val();
                 $.ajax({
                     type: "GET",

@@ -3,7 +3,7 @@
   <div style="width: 640px; height: 640px; position: relative; overflow: hidden; margin: 0px auto;" class="slider">
     <ul style="position: absolute; left: -2560px; width: 3840px;">
       <volist name="banner" id="vo">
-      <li><a><img src="/{:get_image_path($vo['picture'])}"  alt="ShopNC" alt=""></a></li>
+      <li><a><img src="/{:get_image_path($vo['picture'])}"  alt="ShopNC" alt="" width="100%"></a></li>
       </volist>
     </ul>
     <div style="min-height: 0px; position: absolute; bottom: 0px; width: 640px; height: 64px; z-index: 2;"class="focus">
@@ -19,7 +19,7 @@
   </div>
 </div>
 <script>
-    $(".slider").yxMobileSlider({width: 640, height: 320, during: 5000});
+    $(".slider").yxMobileSlider({width: 640, height: 304, during: 5000});
 </script>
 <div class="product">
   <ul>
