@@ -337,6 +337,9 @@ class IndexController extends Controller {
     public function purchase() {
         $this -> display();
     }
+    public function texing() {
+        $this -> display();
+    }
 
     public function consult($data){
         $username = $_POST['username'];

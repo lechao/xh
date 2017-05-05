@@ -133,8 +133,16 @@ border: solid 1px #EEE; overflow: hidden; }
 
 /*关于 banner*/
 
-.banner-about {background-color:#F5F5F5;}
-.banner-about .banner { background: url("../images/2.jpg") no-repeat 0 10px; height: 300px; margin: 0 auto;}
+.banner-about {
+	background: url(../images/about/about_banner_bg.jpg) no-repeat 50% -40px;
+	background-size: cover;
+}
+.banner-about .banner {
+	background: url(../images/about/about_banner.png) no-repeat 0 -20px;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+}
 
 
 /* ===================
