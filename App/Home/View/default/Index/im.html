@@ -12,7 +12,7 @@
             <input type="hidden" name="sign" value="solution-list">
             <input name="nchash" type="hidden" value="36a9b6d6" />
             <label> <strong>姓&nbsp;&nbsp;名</strong>
-              <input type="text" value="" class="input-txt" name="name" id="name">
+              <input type="text" value="" class="input-txt" name="username" id="username">
             </label>
             <label> <strong>手&nbsp;&nbsp;机</strong>
               <input type="text" value="" class="input-txt" name="phone" id="phone">
@@ -42,7 +42,7 @@ $(function(){
             error_td.append(error);
         },
         rules : {
-            name : {
+            username : {
                 required : true
             },
             phone : {
@@ -60,17 +60,25 @@ $(function(){
     });
 
     $("#consult_submit").click(function(){
-        if ($("#consult_form"http://www.shopnc.net/).valid()){            $.post('index.php?act=index&op=save_consult', $("#consult_form").serialize(), function(date){
-                date = $.parseJSON(date);
-                if (date.done) {
-                    $.tooltip(date.msg, 2000, true);
-                  document.consult_form.reset();
-                } else {
-                    $.tooltip(date.msg);
-                }
-                $('.gt_refresh_button').each(function(){
-                    $(this)[0].click();
-                });
+        if ($("#consult_form")){
+             $.post('/wap.php/Wap/consult', $("#consult_form").serialize(), function(data){
+//                date = $.parseJSON(date);
+//                if (date.done) {
+//                    $.tooltip(date.msg, 2000, true);
+//                  document.consult_form.reset();
+//                } else {
+//                    $.tooltip(date.msg);
+//                }
+//                $('.gt_refresh_button').each(function(){
+//                    $(this)[0].click();
+//                });
+                 date = $.parseJSON(data);
+                 if(date.done){
+                     alert('提交成功!');
+                     window.location.href="index.html"/*tpa=http://www.宣汉7yun.net/wap/index.html*/;
+                 }else{
+                     alert(date.msg);
+                 }
             });
         }
         return false;
